@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>7_1_3GAME2</name>
+    <events>
+        <variable constant="0" name="Counter7_3" sid="8728063789074798" static="0" type="number">0</variable>
+        <event-block sid="1948249467143796">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7363383152071169" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7624108329014577" type="Particles" />
+            </actions>
+        </event-block>
+        <event-block sid="1621745587226667">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="7152984671551659" type="Drag3_Game2" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6112075156028926">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="9234407609570772" type="Drag3_Game2">
+                            <param id="0" name="Object">Locked3_Game2</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="8339956557662636" type="Drag3_Game2">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">Locked3_Game2.AnimationFrame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="6969147590111184" type="Locked3_Game2">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="863409527698059" type="Locked3_Game2">
+                            <param id="0" name="Animation">&quot;unlocked&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="1152278391182883" type="Locked3_Game2">
+                            <param id="0" name="Frame number">Drag3_Game2.AnimationFrame</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="4747988379964546" type="Drag3_Game2" />
+                        <action id="-9" name="Set value" sid="4367584931545658" type="System">
+                            <param id="0" name="Variable">Counter7_3</param>
+                            <param id="1" name="Value">Counter7_3+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4142285844994856">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="3176435932565991" type="System">
+                            <param id="0" name="First value">Counter7_3</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="4535607455048977" type="Stars">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="2797683130397582" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="8998583014837462" type="Stars">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="4761945203620134" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="3165948111899738" type="Stars">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="8234095864339643" type="System">
+                            <param id="0" name="Layout">7_2_KNOWING2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

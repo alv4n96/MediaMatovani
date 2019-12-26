@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>9_1_GAME4c</name>
+    <events>
+        <event-block sid="2878889790857703">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="9471694605499421" type="Mouse">
+                    <param id="0" name="Object">Game4_3b</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="5279263544012239" type="Game4_3b">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3683842687874454">
+            <conditions>
+                <condition id="-22" name="Else" sid="2365039107986596" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="1163219258397774" type="Game4_3b">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1791429963591418">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8482330415471193" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Game4_3b</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8575424718906398" type="Warn_Game1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4054131197962851" type="Warn_Game1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="4818863799670861" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3205458836849065" type="Warn_Game1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3268378066151816">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8792995844738693" type="Mouse">
+                    <param id="0" name="Object">Game4_3c</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6283295061812968" type="Game4_3c">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9267602474671531">
+            <conditions>
+                <condition id="-22" name="Else" sid="8221638305894046" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="7075252810378991" type="Game4_3c">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2209365195234069">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1571986546676061" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Game4_3c</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9621350734660546" type="Warn_Game1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5845000140204738" type="Warn_Game1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="9114558176886511" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1529780424814747" type="Warn_Game1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="656422763994644">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="9422904644852046" type="Mouse">
+                    <param id="0" name="Object">Game4_3d</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="3453738254859758" type="Game4_3d">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7667914830770704">
+            <conditions>
+                <condition id="-22" name="Else" sid="3833603070546024" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="3033311759345543" type="Game4_3d">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9944598682542327">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6679676231784218" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Game4_3d</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7917753705174168" type="Warn_Game1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5327870235946584" type="Warn_Game1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="4784378188433806" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2621770143267463" type="Warn_Game1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7752101688340366">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="4960773487770653" type="Mouse">
+                    <param id="0" name="Object">Game4_3a</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="5492369134787681" type="Game4_3a">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1574286687939934">
+            <conditions>
+                <condition id="-22" name="Else" sid="2180619532198081" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="2497667954701602" type="Game4_3a">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9805964054440407">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3990132095804836" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Game4_3a</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9819521415695436" type="System">
+                    <param id="0" name="Layout">9_2_KNOWING4</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

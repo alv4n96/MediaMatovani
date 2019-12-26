@@ -1,0 +1,2975 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>8xunrxtcp4vm</unique-id>
+    <saved-with-version>22700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
+        <plugin author="Scirra" id="video" version="1">Video</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1024</width>
+        <height>768</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="1">
+            <object-type name="Btn_Mulai" sid="6249611080203834">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4080843902902018" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501548" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Mulai.png">
+                            <collision-poly>
+                                <point x="0.0303867" y="0.0681115" />
+                                <point x="0.5" y="0.00309598" />
+                                <point x="0.962707" y="0.0835913" />
+                                <point x="0.990331" y="0.498452" />
+                                <point x="0.955801" y="0.900929" />
+                                <point x="0.5" y="0.950464" />
+                                <point x="0.0372928" y="0.916409" />
+                                <point x="0.00138122" y="0.498452" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Text_Judul" sid="9691875924427306">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3775960803985607" speed="5">
+                        <frame duration="1" hotspotX="0.500301" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\TEXT COVER.png">
+                            <collision-poly>
+                                <point x="0.0547863" y="0.151667" />
+                                <point x="0.499699" y="0.65" />
+                                <point x="0.948826" y="0.141667" />
+                                <point x="0.969296" y="0.5" />
+                                <point x="0.887417" y="0.688333" />
+                                <point x="0.499699" y="0.981667" />
+                                <point x="0.113185" y="0.686667" />
+                                <point x="0.0270921" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="2">
+            <object-type name="KD" sid="8022050504001979">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4608905732349992" speed="5">
+                        <frame duration="1" hotspotX="0.500456" hotspotY="0.501718" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\KI.png">
+                            <collision-poly>
+                                <point x="0.0820419" y="0.309278" />
+                                <point x="0.499544" y="0" />
+                                <point x="0.917958" y="0.309278" />
+                                <point x="0.955333" y="0.831615" />
+                                <point x="0.499544" y="0.611684" />
+                                <point x="0.0437557" y="0.835052" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="KI" sid="5514131885602946">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9866332443682065" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501718" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\KD.png">
+                            <collision-poly>
+                                <point x="0.0821168" y="0.309278" />
+                                <point x="0.5" y="0" />
+                                <point x="0.917883" y="0.309278" />
+                                <point x="0.955292" y="0.831615" />
+                                <point x="0.5" y="0.611684" />
+                                <point x="0.044708" y="0.831615" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Lanjut" sid="3983154586695852">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9012928811720629" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.507042" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Lanjutkan.png">
+                            <collision-poly>
+                                <point x="0.0167364" y="0.112676" />
+                                <point x="0.5" y="0.0140845" />
+                                <point x="0.983264" y="0.112676" />
+                                <point x="0.997908" y="0.492958" />
+                                <point x="0.983264" y="0.887324" />
+                                <point x="0.5" y="0.985915" />
+                                <point x="0.0167364" y="0.887324" />
+                                <point x="0" y="0.492958" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="papan_Text" sid="7946449590478106">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="77938286413566" speed="5">
+                        <frame duration="1" hotspotX="0.500502" hotspotY="0.500387" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Layers\Papan_text.png">
+                            <collision-poly>
+                                <point x="0.0140421" y="0.0108443" />
+                                <point x="0.986961" y="0.0100697" />
+                                <point x="1" y="0.499613" />
+                                <point x="0.986961" y="0.98993" />
+                                <point x="0.0140421" y="0.989156" />
+                                <point x="0.00100301" y="0.499613" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="KI_KD" sid="1255841218188801">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="3">
+            <object-type name="Doa" sid="8285513981123639">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3361144656779885" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501718" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Doa.png">
+                            <collision-poly>
+                                <point x="0.0830292" y="0.312715" />
+                                <point x="0.5" y="0" />
+                                <point x="0.916971" y="0.312715" />
+                                <point x="0.956204" y="0.835052" />
+                                <point x="0.5" y="0.611684" />
+                                <point x="0.044708" y="0.831615" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="papan_Doa" sid="2501158633155547">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8008627619910378" speed="5">
+                        <frame duration="1" hotspotX="0.50019" hotspotY="0.500383" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Layers\Papan_Doa.png">
+                            <collision-poly>
+                                <point x="0.00798783" y="0.016092" />
+                                <point x="0.49981" y="0" />
+                                <point x="0.987828" y="0.0245211" />
+                                <point x="0.984405" y="0.968582" />
+                                <point x="0.49981" y="0.986207" />
+                                <point x="0.0121719" y="0.975479" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="4">
+            <object-type name="Bio1" sid="2870777218529337">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5013632158145252" speed="5">
+                        <frame duration="1" hotspotX="0.500273" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Bio_1.png">
+                            <collision-poly>
+                                <point x="0.0829242" y="0.312757" />
+                                <point x="0.499727" y="0" />
+                                <point x="0.917076" y="0.312757" />
+                                <point x="0.956356" y="0.835391" />
+                                <point x="0.499727" y="0.613169" />
+                                <point x="0.0441899" y="0.833333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Bio_2" sid="3005856862697893">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5179451868471406" speed="5">
+                        <frame duration="1" hotspotX="0.500273" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Bio_2.png">
+                            <collision-poly>
+                                <point x="0.0829242" y="0.312757" />
+                                <point x="0.499727" y="0" />
+                                <point x="0.917076" y="0.312757" />
+                                <point x="0.95581" y="0.833333" />
+                                <point x="0.499727" y="0.613169" />
+                                <point x="0.0436443" y="0.835391" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Btn_NO" sid="144267128363076">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1788412048017089" speed="5">
+                        <frame duration="1" hotspotX="0.502415" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\tdk.png">
+                            <collision-poly>
+                                <point x="0.0676328" y="0.0648148" />
+                                <point x="0.497585" y="0" />
+                                <point x="0.913043" y="0.0833333" />
+                                <point x="0.975845" y="0.5" />
+                                <point x="0.898551" y="0.902778" />
+                                <point x="0.497585" y="0.949074" />
+                                <point x="0.0869565" y="0.916667" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Btn_OKE" sid="2165587259842549">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1669462329997854" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\YA.png">
+                            <collision-poly>
+                                <point x="0.0721154" y="0.0694444" />
+                                <point x="0.5" y="0" />
+                                <point x="0.908654" y="0.087963" />
+                                <point x="0.975962" y="0.5" />
+                                <point x="0.894231" y="0.898148" />
+                                <point x="0.5" y="0.949074" />
+                                <point x="0.0865385" y="0.916667" />
+                                <point x="0.00480769" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Btn_Submit" sid="1575871097989287">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3745548021888126" speed="5">
+                        <frame duration="1" hotspotX="0.502242" hotspotY="0.502146" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Ok.png">
+                            <collision-poly>
+                                <point x="0.0717489" y="0.0686695" />
+                                <point x="0.497758" y="0.00429185" />
+                                <point x="0.910314" y="0.0858369" />
+                                <point x="0.977578" y="0.497854" />
+                                <point x="0.896861" y="0.901288" />
+                                <point x="0.497758" y="0.948498" />
+                                <point x="0.0896861" y="0.914163" />
+                                <point x="0.00448431" y="0.497854" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Next" sid="2402410337854043">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4998870163394703" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Play_Frame2.png">
+                            <collision-poly>
+                                <point x="0.0698925" y="0.0670103" />
+                                <point x="0.5" y="0.00515464" />
+                                <point x="0.913979" y="0.0824742" />
+                                <point x="0.978495" y="0.5" />
+                                <point x="0.897849" y="0.902062" />
+                                <point x="0.5" y="0.953608" />
+                                <point x="0.0860215" y="0.917526" />
+                                <point x="0.00537634" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tampil_Absen" sid="3847052829118123">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Tampil_Nama" sid="3170918278729425">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Tempat_Text" sid="715653277907833">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4257432616779374" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Btn_Ksg.png">
+                            <collision-poly>
+                                <point x="0.0164557" y="0.101563" />
+                                <point x="0.5" y="0" />
+                                <point x="0.976582" y="0.144531" />
+                                <point x="0.990506" y="0.5" />
+                                <point x="0.973418" y="0.835938" />
+                                <point x="0.5" y="0.949219" />
+                                <point x="0.0196203" y="0.878906" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tls_Nama" sid="845449082223332">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7547472513072959" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503876" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Nama_Blk.png">
+                            <collision-poly>
+                                <point x="0.0305556" y="0.0852713" />
+                                <point x="0.5" y="0.0852713" />
+                                <point x="0.925" y="0.209302" />
+                                <point x="0.958333" y="0.496124" />
+                                <point x="0.963889" y="0.899225" />
+                                <point x="0.5" y="0.953488" />
+                                <point x="0.0194444" y="0.945736" />
+                                <point x="0.00277778" y="0.496124" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tls_Absen" sid="6538573594504042">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1597299638797425" speed="5">
+                        <frame duration="1" hotspotX="0.500975" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\NoAbs_Blk.png">
+                            <collision-poly>
+                                <point x="0.0350877" y="0.132353" />
+                                <point x="0.499025" y="0.889706" />
+                                <point x="0.961014" y="0.147059" />
+                                <point x="0.97271" y="0.897059" />
+                                <point x="0.0136452" y="0.948529" />
+                                <point x="0.00194932" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Text_Nama" sid="4973839856387168">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="Text_Absen" sid="7239296190789464">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="Papan_Info" sid="8634305605512093">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6327762178927003" speed="5">
+                        <frame duration="1" hotspotX="0.500495" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Layers\Papan_Info.png">
+                            <collision-poly>
+                                <point x="0.0148368" y="0.0129983" />
+                                <point x="0.499505" y="0" />
+                                <point x="0.978239" y="0.0190641" />
+                                <point x="0.971316" y="0.97487" />
+                                <point x="0.0237389" y="0.979203" />
+                                <point x="0.00098912" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="5">
+            <object-folder name="5.1">
+                <object-type name="1_Pohon" sid="6745911201857682">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2339701067848371" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501683" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\1_Pohon.png">
+                                <collision-poly>
+                                    <point x="0.164384" y="0.161616" />
+                                    <point x="0.5" y="0.0740741" />
+                                    <point x="0.849315" y="0.148148" />
+                                    <point x="0.900685" y="0.498316" />
+                                    <point x="0.589041" y="0.59596" />
+                                    <point x="0.5" y="0.986532" />
+                                    <point x="0.424658" y="0.582492" />
+                                    <point x="0.0856164" y="0.498316" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="2_Sawah" sid="6116318265595995">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1701809408801324" speed="5">
+                            <frame duration="1" hotspotX="0.500876" hotspotY="0.500876" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\2_Sawah copy copy.png">
+                                <collision-poly>
+                                    <point x="0.14711" y="0.14711" />
+                                    <point x="0.499124" y="0.00175131" />
+                                    <point x="0.85289" y="0.14711" />
+                                    <point x="0.998249" y="0.499124" />
+                                    <point x="0.85289" y="0.85289" />
+                                    <point x="0.499124" y="0.998249" />
+                                    <point x="0.14711" y="0.85289" />
+                                    <point x="0.00175131" y="0.499124" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="3_Kali" sid="2355036754267706">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4151914310397295" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\3_Kali_B.png">
+                                <collision-poly>
+                                    <point x="0.00193798" y="0.0026738" />
+                                    <point x="0.998062" y="0.0026738" />
+                                    <point x="0.998062" y="0.997326" />
+                                    <point x="0.00193798" y="0.997326" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="4_Peternakan" sid="1489113670871358">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9785743297246478" speed="5">
+                            <frame duration="1" hotspotX="0.500978" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\4_ Peternakan_B.png">
+                                <collision-poly>
+                                    <point x="0.131115" y="0.156542" />
+                                    <point x="0.499022" y="0.408879" />
+                                    <point x="0.892368" y="0.128505" />
+                                    <point x="0.78865" y="0.5" />
+                                    <point x="0.945205" y="0.934579" />
+                                    <point x="0.0430528" y="0.948598" />
+                                    <point x="0.0430528" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="5_TamanBunga" sid="7786449829876131">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7123543271184476" speed="5">
+                            <frame duration="1" hotspotX="0.500775" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\5_Taman Bunga_B.png">
+                                <collision-poly>
+                                    <point x="0.102326" y="0.221477" />
+                                    <point x="0.499225" y="0.402685" />
+                                    <point x="0.930233" y="0.151007" />
+                                    <point x="0.99845" y="0.5" />
+                                    <point x="0.99845" y="0.996644" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="6_Rumah" sid="189116859693289">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5963353653353074" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501279" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\6_Rumah_B.png">
+                                <collision-poly>
+                                    <point x="0.184953" y="0.30179" />
+                                    <point x="0.5" y="0.0460358" />
+                                    <point x="0.742947" y="0.419437" />
+                                    <point x="0.721003" y="0.498721" />
+                                    <point x="0.9279" y="0.882353" />
+                                    <point x="0.5" y="0.956522" />
+                                    <point x="0.0470219" y="0.923274" />
+                                    <point x="0.15047" y="0.498721" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Hai" sid="4790541492880046">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="MAP" sid="3081003045124768">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1168778220951844" speed="5">
+                            <frame duration="1" hotspotX="0.500775" hotspotY="0.502222" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\MAP.png">
+                                <collision-poly>
+                                    <point x="0.00775194" y="0.0222222" />
+                                    <point x="0.499225" y="0" />
+                                    <point x="0.989147" y="0.0311111" />
+                                    <point x="0.986046" y="0.96" />
+                                    <point x="0.499225" y="0.977778" />
+                                    <point x="0.0108527" y="0.968889" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Penghubung" sid="9645610282601035">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4357458287050982" speed="5">
+                            <frame duration="1" hotspotX="0.500258" hotspotY="0.500533" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\Titik Titik.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Quit" sid="9007184622567224">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2136150536867744" speed="5">
+                            <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Out.png">
+                                <collision-poly>
+                                    <point x="0.0677291" y="0.0648855" />
+                                    <point x="0.498008" y="0" />
+                                    <point x="0.912351" y="0.0839695" />
+                                    <point x="0.976096" y="0.5" />
+                                    <point x="0.896414" y="0.900763" />
+                                    <point x="0.498008" y="0.950382" />
+                                    <point x="0.0876494" y="0.916031" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Tampil_Jeneng" sid="8450410073957912">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Warning_Locked" sid="30173224908684">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7534574231083858" speed="5">
+                            <frame duration="1" hotspotX="0.500327" hotspotY="0.500938" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Warn.png">
+                                <collision-poly>
+                                    <point x="0.00783801" y="0.0225141" />
+                                    <point x="0.499673" y="0.00187617" />
+                                    <point x="0.986937" y="0.0375235" />
+                                    <point x="0.983671" y="0.953096" />
+                                    <point x="0.499673" y="0.981238" />
+                                    <point x="0.011757" y="0.966229" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="5.2">
+                <object-type name="2_Sawah_Locked" sid="3356143945467268">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3559901192405384" speed="5">
+                            <frame duration="1" hotspotX="0.500876" hotspotY="0.500876" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\2_Sawah.png">
+                                <collision-poly>
+                                    <point x="0.14711" y="0.14711" />
+                                    <point x="0.499124" y="0.00175131" />
+                                    <point x="0.85289" y="0.14711" />
+                                    <point x="0.998249" y="0.499124" />
+                                    <point x="0.85289" y="0.85289" />
+                                    <point x="0.499124" y="0.998249" />
+                                    <point x="0.14711" y="0.85289" />
+                                    <point x="0.00175131" y="0.499124" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Warning_Success" sid="9975758953177365">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8130840226428708" speed="5">
+                            <frame duration="1" hotspotX="0.500327" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Warn_Success.png">
+                                <collision-poly>
+                                    <point x="0.00783801" y="0.0225564" />
+                                    <point x="0.499673" y="0" />
+                                    <point x="0.986937" y="0.037594" />
+                                    <point x="0.984324" y="0.954887" />
+                                    <point x="0.499673" y="0.983083" />
+                                    <point x="0.011757" y="0.966165" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="5.3">
+                <object-type name="3_Kali_Success" sid="9937702360960726">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5828539427464379" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\3_Kali.png">
+                                <collision-poly>
+                                    <point x="0.00193798" y="0.0026738" />
+                                    <point x="0.998062" y="0.0026738" />
+                                    <point x="0.998062" y="0.997326" />
+                                    <point x="0.00193798" y="0.997326" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="5.4">
+                <object-type name="4_Perternakan_Success" sid="2182591954324467">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7988807530014724" speed="5">
+                            <frame duration="1" hotspotX="0.500978" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\4_ Peternakan.png">
+                                <collision-poly>
+                                    <point x="0.131115" y="0.156542" />
+                                    <point x="0.499022" y="0.408879" />
+                                    <point x="0.892368" y="0.128505" />
+                                    <point x="0.78865" y="0.5" />
+                                    <point x="0.945205" y="0.934579" />
+                                    <point x="0.0430528" y="0.948598" />
+                                    <point x="0.0430528" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="5.5">
+                <object-type name="5_TamanBunga_Success" sid="5448318720014087">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2339636005230002" speed="5">
+                            <frame duration="1" hotspotX="0.500775" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\5_Taman Bunga.png">
+                                <collision-poly>
+                                    <point x="0.102326" y="0.221477" />
+                                    <point x="0.499225" y="0.402685" />
+                                    <point x="0.930233" y="0.151007" />
+                                    <point x="0.99845" y="0.5" />
+                                    <point x="0.99845" y="0.996644" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="5.6">
+                <object-type name="6_Rumah_Success" sid="700766303944671">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2094389064114608" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501279" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\6_Rumah.png">
+                                <collision-poly>
+                                    <point x="0.184953" y="0.30179" />
+                                    <point x="0.5" y="0.0460358" />
+                                    <point x="0.742947" y="0.419437" />
+                                    <point x="0.721003" y="0.498721" />
+                                    <point x="0.9279" y="0.882353" />
+                                    <point x="0.5" y="0.956522" />
+                                    <point x="0.0470219" y="0.923274" />
+                                    <point x="0.15047" y="0.498721" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+        </object-folder>
+        <object-folder name="Game1">
+            <object-type name="Jawab1_1" sid="199748357498833">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="Jawab1" sid="3174304304496634">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="184169641936628" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Jawab.png">
+                            <collision-poly>
+                                <point x="0.0305603" y="0.0687023" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0.00169779" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jawab1_2" sid="9070790444617552">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="Papan_Soal_Game1" sid="2851248028066818">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2677692832060508" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Layers\Papan_Soal.png">
+                            <collision-poly>
+                                <point x="0.00837989" y="0.0138462" />
+                                <point x="0.5" y="0.00153846" />
+                                <point x="0.985102" y="0.0246154" />
+                                <point x="0.982309" y="0.970769" />
+                                <point x="0.5" y="0.989231" />
+                                <point x="0.0130354" y="0.978462" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Jawab1_3" sid="3060850152683506">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="Jawab1_4" sid="5678802846324746">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="Warn_Game1" sid="2007162567522012">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3110000252199365" speed="5">
+                        <frame duration="1" hotspotX="0.500327" hotspotY="0.500938" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Warn_Game_1.png">
+                            <collision-poly>
+                                <point x="0.00783801" y="0.0225141" />
+                                <point x="0.499673" y="0.00187617" />
+                                <point x="0.986937" y="0.0375235" />
+                                <point x="0.983671" y="0.953096" />
+                                <point x="0.499673" y="0.981238" />
+                                <point x="0.011757" y="0.966229" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Text_Game_1" sid="8117024843590709">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3696724302679445" speed="5">
+                        <frame duration="1" hotspotX="0.500204" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game_1.png">
+                            <collision-poly>
+                                <point x="0.00530396" y="0.101563" />
+                                <point x="0.499796" y="0.257813" />
+                                <point x="0.997144" y="0.0546875" />
+                                <point x="0.994696" y="0.898438" />
+                                <point x="0.499796" y="0.484375" />
+                                <point x="0.00244798" y="0.953125" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Pohon_1" sid="2046515067210445">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9091324496456828" speed="5">
+                        <frame duration="1" hotspotX="0.500967" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\Pohon_Game_1.png">
+                            <collision-poly>
+                                <point x="0.162476" y="0.175" />
+                                <point x="0.499033" y="0.025" />
+                                <point x="0.880077" y="0.129167" />
+                                <point x="0.965184" y="0.5" />
+                                <point x="0.682785" y="0.658333" />
+                                <point x="0.499033" y="1" />
+                                <point x="0.350097" y="0.622917" />
+                                <point x="0.0174081" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Pohon_4" sid="1811734807462756">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8099057774632797" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501176" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\Pohon_Game_2.png">
+                            <collision-poly>
+                                <point x="0.120968" y="0.0705882" />
+                                <point x="0.5" y="0.0258824" />
+                                <point x="0.879032" y="0.0705882" />
+                                <point x="0.645161" y="0.498824" />
+                                <point x="0.495968" y="0.705882" />
+                                <point x="0.5" y="0.649412" />
+                                <point x="0.366935" y="0.785882" />
+                                <point x="0.217742" y="0.498824" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Pohon_2" sid="1655238605058326">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="333885186739759" speed="5">
+                        <frame duration="1" hotspotX="0.501099" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\Pohon_Game_3.png">
+                            <collision-poly>
+                                <point x="0.171429" y="0.178899" />
+                                <point x="0.498901" y="0.0298165" />
+                                <point x="0.828571" y="0.178899" />
+                                <point x="0.993407" y="0.5" />
+                                <point x="0.617582" y="0.600917" />
+                                <point x="0.498901" y="1" />
+                                <point x="0.371429" y="0.612385" />
+                                <point x="0.00659341" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Pohon_3" sid="1345096386048414">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2845579180819697" speed="5">
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\Pohon_Game_4.png">
+                            <collision-poly>
+                                <point x="0.170029" y="0.140476" />
+                                <point x="0.498559" y="0.00952381" />
+                                <point x="0.887608" y="0.0928571" />
+                                <point x="0.994236" y="0.5" />
+                                <point x="0.559078" y="0.635714" />
+                                <point x="0.498559" y="1" />
+                                <point x="0.432277" y="0.642857" />
+                                <point x="0.00576369" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="6_Akar" sid="2708728363583755">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6510654525375245" speed="5">
+                        <frame duration="1" hotspotX="0.501618" hotspotY="0.501577" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\6_Akar.png">
+                            <collision-poly>
+                                <point x="0.0841424" y="0.0820189" />
+                                <point x="0.498382" y="0.022082" />
+                                <point x="0.944984" y="0.0536278" />
+                                <point x="0.653722" y="0.662461" />
+                                <point x="0.498382" y="0.555205" />
+                                <point x="0.320388" y="0.687697" />
+                                <point x="0.339806" y="0.498423" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="6_Batang" sid="3581018847103116">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5656016376921373" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\6_Batang.png">
+                            <collision-poly>
+                                <point x="0.1375" y="0.0597826" />
+                                <point x="0.5" y="0" />
+                                <point x="0.7625" y="0.103261" />
+                                <point x="0.7125" y="0.5" />
+                                <point x="0.825" y="0.923913" />
+                                <point x="0.5" y="0.967391" />
+                                <point x="0.225" y="0.902174" />
+                                <point x="0.2" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="daun" sid="6802032588418831">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2155340550635927" speed="5">
+                        <frame duration="1" hotspotX="0.501119" hotspotY="0.501272" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\daun.png">
+                            <collision-poly>
+                                <point x="0.190157" y="0.216285" />
+                                <point x="0.498881" y="0" />
+                                <point x="0.870246" y="0.147583" />
+                                <point x="0.991051" y="0.498728" />
+                                <point x="0.87472" y="0.857506" />
+                                <point x="0.498881" y="0.526718" />
+                                <point x="0.107383" y="0.877863" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="6_Bg_Daun" sid="4055834096443875">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4227896601407431" speed="5">
+                        <frame duration="1" hotspotX="0.501253" hotspotY="0.502564" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\6_Bg_Daun.png">
+                            <collision-poly>
+                                <point x="0.20802" y="0.425641" />
+                                <point x="0.498747" y="0.0564103" />
+                                <point x="0.761905" y="0.487179" />
+                                <point x="0.992481" y="0.497436" />
+                                <point x="0.892231" y="0.779487" />
+                                <point x="0.498747" y="0.958974" />
+                                <point x="0.213033" y="0.564103" />
+                                <point x="0.0501253" y="0.497436" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="6_Ranting" sid="3736592942103764">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4377162271026238" speed="5">
+                        <frame duration="1" hotspotX="0.504202" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\6_Ranting.png">
+                            <collision-poly>
+                                <point x="0.403361" y="0.255319" />
+                                <point x="0.495798" y="0.12234" />
+                                <point x="0.537815" y="0.292553" />
+                                <point x="0.655462" y="0.5" />
+                                <point x="0.857143" y="0.909574" />
+                                <point x="0.495798" y="0.994681" />
+                                <point x="0.319328" y="0.797872" />
+                                <point x="0.00840336" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Btn_Materi1" sid="4877867712308021">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8809047789731541" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Paham.png">
+                            <collision-poly>
+                                <point x="0.0305603" y="0.0684411" />
+                                <point x="0.499151" y="0.00380228" />
+                                <point x="0.962649" y="0.0836502" />
+                                <point x="0.989813" y="0.498099" />
+                                <point x="0.955857" y="0.901141" />
+                                <point x="0.499151" y="0.95057" />
+                                <point x="0.0373514" y="0.91635" />
+                                <point x="0" y="0.498099" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Txt_Materi1" sid="7935023381437276">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2213772406305812" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50365" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_1.png">
+                            <collision-poly>
+                                <point x="0.0088574" y="0.145985" />
+                                <point x="0.5" y="0.0291971" />
+                                <point x="0.9969" y="0.0510949" />
+                                <point x="0.992028" y="0.868613" />
+                                <point x="0.5" y="0.905109" />
+                                <point x="0.0159433" y="0.737226" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MATERI1" sid="3645991556762498">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Daun" pingpong="0" repeatcount="1" repeatto="0" sid="4873521155916993" speed="5">
+                        <frame duration="1" hotspotX="0.500257" hotspotY="0.500475" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_1_1.png">
+                            <collision-poly>
+                                <point x="0.00874936" y="0.0161444" />
+                                <point x="0.499743" y="0" />
+                                <point x="0.991251" y="0.0161444" />
+                                <point x="0.991251" y="0.983856" />
+                                <point x="0.499743" y="1" />
+                                <point x="0.00874936" y="0.983856" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Ranting" pingpong="0" repeatcount="1" repeatto="0" sid="8687486204595315" speed="5">
+                        <frame duration="1" hotspotX="0.500257" hotspotY="0.500475" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_1_2.png">
+                            <collision-poly>
+                                <point x="0.00874936" y="0.0161444" />
+                                <point x="0.499743" y="0" />
+                                <point x="0.991251" y="0.0161444" />
+                                <point x="0.991251" y="0.983856" />
+                                <point x="0.499743" y="1" />
+                                <point x="0.00874936" y="0.983856" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Batang" pingpong="0" repeatcount="1" repeatto="0" sid="1388485129299896" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500475" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_1_3.png">
+                            <collision-poly>
+                                <point x="0.00875386" y="0.0161444" />
+                                <point x="0.5" y="0" />
+                                <point x="0.991246" y="0.0161444" />
+                                <point x="0.991246" y="0.983856" />
+                                <point x="0.5" y="1" />
+                                <point x="0.00875386" y="0.983856" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Akar" pingpong="0" repeatcount="1" repeatto="0" sid="1215937657948185" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500475" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_1_4.png">
+                            <collision-poly>
+                                <point x="0.00875386" y="0.0161444" />
+                                <point x="0.5" y="0" />
+                                <point x="0.991246" y="0.0161444" />
+                                <point x="0.991246" y="0.983856" />
+                                <point x="0.5" y="1" />
+                                <point x="0.00875386" y="0.983856" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Know_Game1" sid="5132096530717552">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9546836316029089" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500715" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Know_Game1.png">
+                            <collision-poly>
+                                <point x="0.00587803" y="0.0228898" />
+                                <point x="0.5" y="0" />
+                                <point x="0.994122" y="0.0228898" />
+                                <point x="0.994122" y="0.97711" />
+                                <point x="0.5" y="0.998569" />
+                                <point x="0.00587803" y="0.97711" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Game3">
+            <object-type name="Drag" sid="6802374735033833">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="7506234048053187">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="UNLOCKED_FISH" pingpong="0" repeatcount="1" repeatto="0" sid="4317362318953034" speed="0">
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_1.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_3.png" />
+                        <frame duration="1" hotspotX="0.501992" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_4.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_2.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Locked_Fish" sid="3227460820983229">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="locked" pingpong="0" repeatcount="1" repeatto="0" sid="2271437780727985" speed="0">
+                        <frame duration="1" hotspotX="0.500711" hotspotY="0.500971" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\IKAN_1_B.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501199" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\IKAN_2_B.png" />
+                        <frame duration="1" hotspotX="0.500582" hotspotY="0.501048" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\IKAN_3_B.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\IKAN_4_B.png" />
+                    </animation>
+                    <animation framecount="4" loop="0" name="unlocked" pingpong="0" repeatcount="1" repeatto="0" sid="3572534414395526" speed="0">
+                        <frame duration="1" hotspotX="0.500711" hotspotY="0.500971" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\IKAN_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501199" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\IKAN_2.png" />
+                        <frame duration="1" hotspotX="0.500582" hotspotY="0.501048" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\IKAN_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\IKAN_4.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Particles" sid="2241000612890623">
+                <plugin id="Particles" />
+                <texture />
+            </object-type>
+            <object-type name="Text_Game2" sid="5620631213147693">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9969222267793738" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501362" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game_2.png">
+                            <collision-poly>
+                                <point x="0.00981354" y="0.0544959" />
+                                <point x="0.5" y="0.122616" />
+                                <point x="0.991659" y="0.0463215" />
+                                <point x="0.969578" y="0.831063" />
+                                <point x="0.5" y="0.825613" />
+                                <point x="0.0210991" y="0.882834" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Victory_Game2" sid="4539263201597019">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6946726383922536" speed="5">
+                        <frame duration="1" hotspotX="0.500254" hotspotY="0.50073" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game_2_Victory.png">
+                            <collision-poly>
+                                <point x="0.00761035" y="0.0218978" />
+                                <point x="0.499746" y="0" />
+                                <point x="0.986809" y="0.0379562" />
+                                <point x="0.983765" y="0.953285" />
+                                <point x="0.499746" y="0.981022" />
+                                <point x="0.0116692" y="0.966423" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Know_Game3" sid="6635600056919472">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="492348382653818" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500715" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Know_Game3.png">
+                            <collision-poly>
+                                <point x="0.00551065" y="0.0214592" />
+                                <point x="0.5" y="0" />
+                                <point x="0.994122" y="0.0228898" />
+                                <point x="0.994122" y="0.97711" />
+                                <point x="0.5" y="0.998569" />
+                                <point x="0.00587803" y="0.97711" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi3_Herbi" sid="8034176499986898">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8628224187698208" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi3_Herbi.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi3_Insek" sid="3491074911231356">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3122672583517198" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi3_Insek.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0.00169779" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi3_Karni" sid="5766432267754715">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="989896489483141" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi3_Karni.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi3_Omni" sid="1407764540635055">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4865658199084151" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi3_Omni.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi3_Text" sid="8325932127428731">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="854642529808308" speed="5">
+                        <frame duration="1" hotspotX="0.500197" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi3_Text.png">
+                            <collision-poly>
+                                <point x="0.00749507" y="0.19" />
+                                <point x="0.499803" y="0.06" />
+                                <point x="0.993294" y="0.17" />
+                                <point x="0.994872" y="0.87" />
+                                <point x="0.499803" y="0.83" />
+                                <point x="0.0106509" y="0.73" />
+                                <point x="0.000788955" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Pause_Video" sid="872485614811507">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5204147390099511" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Pause_Video.png">
+                            <collision-poly>
+                                <point x="0.0714286" y="0.0687023" />
+                                <point x="0.5" y="0" />
+                                <point x="0.912698" y="0.0839695" />
+                                <point x="0.97619" y="0.5" />
+                                <point x="0.896825" y="0.900763" />
+                                <point x="0.5" y="0.950382" />
+                                <point x="0.0873016" y="0.916031" />
+                                <point x="0.00396825" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Play_video" sid="2308023137390311">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6749755375578595" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Play_video.png">
+                            <collision-poly>
+                                <point x="0.0714286" y="0.0687023" />
+                                <point x="0.5" y="0" />
+                                <point x="0.912698" y="0.0839695" />
+                                <point x="0.97619" y="0.5" />
+                                <point x="0.896825" y="0.900763" />
+                                <point x="0.5" y="0.950382" />
+                                <point x="0.0873016" y="0.916031" />
+                                <point x="0.00396825" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Re_Play_Video" sid="7499616412461573">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9377842668861999" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Re_Play_Video.png">
+                            <collision-poly>
+                                <point x="0.0714286" y="0.0684411" />
+                                <point x="0.5" y="0.00380228" />
+                                <point x="0.912698" y="0.0836502" />
+                                <point x="0.97619" y="0.498099" />
+                                <point x="0.896825" y="0.901141" />
+                                <point x="0.5" y="0.95057" />
+                                <point x="0.0873016" y="0.91635" />
+                                <point x="0.00396825" y="0.498099" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SliderBar" sid="3919709461048856">
+                <plugin id="sliderbar" />
+            </object-type>
+            <object-type name="Video_MATERI2" sid="1914140316190777">
+                <plugin id="video" />
+            </object-type>
+            <object-type name="Text_Materi3" sid="644681619731008">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Herbi" pingpong="0" repeatcount="1" repeatto="0" sid="3733190824900013" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500429" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_3_1.png">
+                            <collision-poly>
+                                <point x="0.0242469" y="0.0566524" />
+                                <point x="0.5" y="0.0137339" />
+                                <point x="0.975753" y="0.0566524" />
+                                <point x="0.999633" y="0.499571" />
+                                <point x="0.992285" y="0.981974" />
+                                <point x="0.5" y="0.999142" />
+                                <point x="0.00734754" y="0.982833" />
+                                <point x="0" y="0.499571" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Karni" pingpong="0" repeatcount="1" repeatto="0" sid="7390025163498483" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_3_2.png">
+                            <collision-poly>
+                                <point x="0.02241" y="0.0525862" />
+                                <point x="0.5" y="0.0362069" />
+                                <point x="0.97759" y="0.0525862" />
+                                <point x="1" y="0.5" />
+                                <point x="0.992652" y="0.982759" />
+                                <point x="0.5" y="0.999138" />
+                                <point x="0.00771492" y="0.981897" />
+                                <point x="0.000367377" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Omni" pingpong="0" repeatcount="1" repeatto="0" sid="2276611162854771" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500432" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_3_3.png">
+                            <collision-poly>
+                                <point x="0.0216752" y="0.0509939" />
+                                <point x="0.5" y="0.00518583" />
+                                <point x="0.978325" y="0.0509939" />
+                                <point x="0.999633" y="0.499568" />
+                                <point x="0.992285" y="0.98185" />
+                                <point x="0.5" y="0.999136" />
+                                <point x="0.00734754" y="0.982714" />
+                                <point x="0" y="0.499568" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Insek" pingpong="0" repeatcount="1" repeatto="0" sid="3216092779358301" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500428" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_3_4.png">
+                            <collision-poly>
+                                <point x="0.0246143" y="0.0574122" />
+                                <point x="0.5" y="0.0205656" />
+                                <point x="0.975386" y="0.0574122" />
+                                <point x="1" y="0.499572" />
+                                <point x="0.992652" y="0.982862" />
+                                <point x="0.5" y="0.999143" />
+                                <point x="0.00771492" y="0.982005" />
+                                <point x="0.000367377" y="0.499572" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Game2">
+            <object-type name="GAME_2_1" sid="6842565406545193">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3632232385973904" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME_2_1.png">
+                            <collision-poly>
+                                <point x="0.0145161" y="0.0305085" />
+                                <point x="0.5" y="0.00338983" />
+                                <point x="0.980645" y="0.040678" />
+                                <point x="0.990323" y="0.498305" />
+                                <point x="0.972581" y="0.942373" />
+                                <point x="0.5" y="0.962712" />
+                                <point x="0.0225806" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Drag1_Game2" sid="4538728131808977">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="3152889931723273">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="default" pingpong="0" repeatcount="1" repeatto="0" sid="8500971819411323" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_1a.png">
+                            <collision-poly>
+                                <point x="0.0145161" y="0.0305085" />
+                                <point x="0.5" y="0.00338983" />
+                                <point x="0.980645" y="0.040678" />
+                                <point x="0.990323" y="0.498305" />
+                                <point x="0.972581" y="0.942373" />
+                                <point x="0.5" y="0.962712" />
+                                <point x="0.0225806" y="0.952542" />
+                                <point x="0.0016129" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_1b.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_1c.png">
+                            <collision-poly>
+                                <point x="0.0145161" y="0.0305085" />
+                                <point x="0.5" y="0.00338983" />
+                                <point x="0.980645" y="0.040678" />
+                                <point x="0.98871" y="0.498305" />
+                                <point x="0.972581" y="0.942373" />
+                                <point x="0.5" y="0.962712" />
+                                <point x="0.0225806" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Locked1_Game2" sid="2256876247836586">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="locked" pingpong="0" repeatcount="0" repeatto="0" sid="7858137099520236" speed="0">
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_0.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_0.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_0.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="unlocked" pingpong="0" repeatcount="0" repeatto="0" sid="6362245774852912" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_1a.png">
+                            <collision-poly>
+                                <point x="0.0145161" y="0.0305085" />
+                                <point x="0.5" y="0.00338983" />
+                                <point x="0.980645" y="0.040678" />
+                                <point x="0.990323" y="0.498305" />
+                                <point x="0.972581" y="0.942373" />
+                                <point x="0.5" y="0.962712" />
+                                <point x="0.0225806" y="0.952542" />
+                                <point x="0.0016129" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_1b.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_1c.png">
+                            <collision-poly>
+                                <point x="0.0145161" y="0.0305085" />
+                                <point x="0.5" y="0.00338983" />
+                                <point x="0.980645" y="0.040678" />
+                                <point x="0.98871" y="0.498305" />
+                                <point x="0.972581" y="0.942373" />
+                                <point x="0.5" y="0.962712" />
+                                <point x="0.0225806" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Locked2_Game2" sid="15586528701471">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="locked" pingpong="0" repeatcount="0" repeatto="0" sid="8290229408121431" speed="0">
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_0.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_0.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_0.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="unlocked" pingpong="0" repeatcount="0" repeatto="0" sid="3656633422738941" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_2a.png" />
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_2b.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_2c.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Drag2_Game2" sid="1367770351884366">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="7552181014167431">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4490920868771271" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_2a.png">
+                            <collision-poly>
+                                <point x="0.0145161" y="0.0305085" />
+                                <point x="0.5" y="0.00338983" />
+                                <point x="0.980645" y="0.040678" />
+                                <point x="0.990323" y="0.498305" />
+                                <point x="0.972581" y="0.942373" />
+                                <point x="0.5" y="0.962712" />
+                                <point x="0.0225806" y="0.952542" />
+                                <point x="0.0016129" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_2b.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_2c.png">
+                            <collision-poly>
+                                <point x="0.0145161" y="0.0305085" />
+                                <point x="0.5" y="0.00338983" />
+                                <point x="0.980645" y="0.040678" />
+                                <point x="0.98871" y="0.498305" />
+                                <point x="0.972581" y="0.942373" />
+                                <point x="0.5" y="0.962712" />
+                                <point x="0.0225806" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GAME_2_2" sid="4353772685416527">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6471980255244538" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME_2_2.png">
+                            <collision-poly>
+                                <point x="0.0145161" y="0.0305085" />
+                                <point x="0.5" y="0.00338983" />
+                                <point x="0.980645" y="0.040678" />
+                                <point x="0.990323" y="0.498305" />
+                                <point x="0.972581" y="0.942373" />
+                                <point x="0.5" y="0.962712" />
+                                <point x="0.0225806" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Drag3_Game2" sid="6436220079151415">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="6337528726037334">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8768597093049743" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_3a.png">
+                            <collision-poly>
+                                <point x="0.0129032" y="0.0272109" />
+                                <point x="0.5" y="0" />
+                                <point x="0.980645" y="0.0408163" />
+                                <point x="0.990323" y="0.5" />
+                                <point x="0.972581" y="0.942177" />
+                                <point x="0.5" y="0.962585" />
+                                <point x="0.0225806" y="0.952381" />
+                                <point x="0.0016129" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_3b.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0272109" />
+                                <point x="0.499192" y="0" />
+                                <point x="0.980614" y="0.0408163" />
+                                <point x="0.990307" y="0.5" />
+                                <point x="0.974152" y="0.945578" />
+                                <point x="0.499192" y="0.962585" />
+                                <point x="0.0226171" y="0.952381" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_3c.png">
+                            <collision-poly>
+                                <point x="0.0129032" y="0.0272109" />
+                                <point x="0.5" y="0" />
+                                <point x="0.980645" y="0.0408163" />
+                                <point x="0.98871" y="0.5" />
+                                <point x="0.972581" y="0.942177" />
+                                <point x="0.5" y="0.962585" />
+                                <point x="0.0225806" y="0.952381" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GAME_2_3" sid="3855965789236744">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8099899307582049" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME_2_3.png">
+                            <collision-poly>
+                                <point x="0.0129032" y="0.0272109" />
+                                <point x="0.5" y="0" />
+                                <point x="0.980645" y="0.0408163" />
+                                <point x="0.990323" y="0.5" />
+                                <point x="0.972581" y="0.942177" />
+                                <point x="0.5" y="0.962585" />
+                                <point x="0.0225806" y="0.952381" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Locked3_Game2" sid="8374696295562472">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="locked" pingpong="0" repeatcount="0" repeatto="0" sid="6422811961273324" speed="0">
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_0.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_0.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.501695" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_0.png">
+                            <collision-poly>
+                                <point x="0.0129241" y="0.0271186" />
+                                <point x="0.499192" y="0.00338983" />
+                                <point x="0.980614" y="0.040678" />
+                                <point x="0.990307" y="0.498305" />
+                                <point x="0.972536" y="0.942373" />
+                                <point x="0.499192" y="0.962712" />
+                                <point x="0.0226171" y="0.952542" />
+                                <point x="0" y="0.498305" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="3" loop="0" name="unlocked" pingpong="0" repeatcount="0" repeatto="0" sid="3067189211919342" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_3a.png" />
+                        <frame duration="1" hotspotX="0.500808" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_3b.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game2_3c.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Text_Game_2" sid="8536050158559601">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4889882677468538" speed="5">
+                        <frame duration="1" hotspotX="0.50018" hotspotY="0.50365" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game_2.png">
+                            <collision-poly>
+                                <point x="0.00613054" y="0.124088" />
+                                <point x="0.49982" y="0.182482" />
+                                <point x="0.997476" y="0.0510949" />
+                                <point x="0.993509" y="0.868613" />
+                                <point x="0.49982" y="0.79562" />
+                                <point x="0.00685178" y="0.861314" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Know_Game2" sid="3322031055855333">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="277941212146831" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500715" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Know_Game2.png">
+                            <collision-poly>
+                                <point x="0.00587803" y="0.0228898" />
+                                <point x="0.5" y="0" />
+                                <point x="0.994122" y="0.0228898" />
+                                <point x="0.994122" y="0.97711" />
+                                <point x="0.5" y="1" />
+                                <point x="0.00587803" y="0.97711" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Game4">
+            <object-folder name="Game1">
+                <object-type name="Game4_1" sid="4730017246169625">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9808563899827215" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500647" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game4_1.png">
+                                <collision-poly>
+                                    <point x="0.00624541" y="0.0219922" />
+                                    <point x="0.5" y="0.00129366" />
+                                    <point x="0.993755" y="0.0219922" />
+                                    <point x="0.993755" y="0.978008" />
+                                    <point x="0.5" y="0.998706" />
+                                    <point x="0.00624541" y="0.978008" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_1a" sid="7959856774595052">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3666545177212645" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_1a.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="0.999005" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_1b" sid="4832506389537364">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2182150638668878" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_1b.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="1" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_1c" sid="9656322177551211">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8002811968907374" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_1c.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="0.999005" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_1d" sid="7232077377152323">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663022743837779" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_1d.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="1" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Game2">
+                <object-type name="Game4_2" sid="1239125182456275">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1919637338289994" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500647" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game4_2.png">
+                                <collision-poly>
+                                    <point x="0.00624541" y="0.0219922" />
+                                    <point x="0.5" y="0.00129366" />
+                                    <point x="0.993755" y="0.0219922" />
+                                    <point x="0.993755" y="0.978008" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.00624541" y="0.978008" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_2a" sid="5817404258832552">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3999552884244472" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_2a.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0839695" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.0954198" />
+                                    <point x="0.999005" y="0.5" />
+                                    <point x="0.971144" y="0.889313" />
+                                    <point x="0.499502" y="0.950382" />
+                                    <point x="0.0268657" y="0.896947" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_2b" sid="7416870990929831">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2836121564817415" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_2b.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="0.999005" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_2c" sid="7320051187612311">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6352758033201985" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_2c.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="1" y="0.498099" />
+                                    <point x="0.971144" y="0.889734" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_2d" sid="4956347445642541">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1088070820289163" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_2d.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="1" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Game3">
+                <object-type name="Game4_3a" sid="9626429884806915">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8605332348264409" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_3a.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="0.999005" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_3b" sid="3613133942279329">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8209512101226742" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_3b.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0839695" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.0954198" />
+                                    <point x="0.999005" y="0.5" />
+                                    <point x="0.971144" y="0.889313" />
+                                    <point x="0.499502" y="0.950382" />
+                                    <point x="0.0268657" y="0.896947" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_3c" sid="1152267326099217">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8289694130628409" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_3c.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="1" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.946768" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_3d" sid="2665498028758739">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2538012560473576" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game4_3d.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0839695" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.0954198" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.971144" y="0.889313" />
+                                    <point x="0.499502" y="0.950382" />
+                                    <point x="0.0268657" y="0.896947" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game4_3" sid="954953014706841">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4188813789268049" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game4_3.png">
+                                <collision-poly>
+                                    <point x="0.00624541" y="0.0220207" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.994122" y="0.0207254" />
+                                    <point x="0.994122" y="0.979275" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.00624541" y="0.977979" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-type name="Txt_GAME4" sid="5781824896251193">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1351400003770816" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503817" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game_4.png">
+                            <collision-poly>
+                                <point x="0.0109051" y="0.152672" />
+                                <point x="0.5" y="0.160305" />
+                                <point x="0.996183" y="0.0534351" />
+                                <point x="0.991821" y="0.885496" />
+                                <point x="0.5" y="0.854962" />
+                                <point x="0.0087241" y="0.877863" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi4_Ovo" sid="2548096997631731">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363511008319536" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi4_Ovo.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi4_Ovi" sid="3463510197367245">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3280380866380523" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi4_Ovi.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi4_Vi" sid="8339835335236334">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7627958752565061" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi4_Vi.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi4_Text" sid="1146046605744482">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2194555971064062" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi4_Text.png">
+                            <collision-poly>
+                                <point x="0.00360577" y="0.09" />
+                                <point x="0.5" y="0.21" />
+                                <point x="0.991987" y="0.2" />
+                                <point x="0.99359" y="0.84" />
+                                <point x="0.00400641" y="0.9" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi4" sid="1957662922372839">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="vi" pingpong="0" repeatcount="1" repeatto="0" sid="5641444374175793" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500423" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_4_1.png">
+                            <collision-poly>
+                                <point x="0.0304923" y="0.0701606" />
+                                <point x="0.5" y="0.0160609" />
+                                <point x="0.969508" y="0.0701606" />
+                                <point x="0.999633" y="0.499577" />
+                                <point x="0.992285" y="0.982249" />
+                                <point x="0.5" y="0.999155" />
+                                <point x="0.00734754" y="0.983094" />
+                                <point x="0" y="0.499577" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="ovi" pingpong="0" repeatcount="1" repeatto="0" sid="2786849635187178" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500423" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_4_2.png">
+                            <collision-poly>
+                                <point x="0.0304923" y="0.0701606" />
+                                <point x="0.5" y="0.0160609" />
+                                <point x="0.969508" y="0.0701606" />
+                                <point x="1" y="0.499577" />
+                                <point x="0.992652" y="0.983094" />
+                                <point x="0.5" y="0.999155" />
+                                <point x="0.00771492" y="0.982249" />
+                                <point x="0.000367377" y="0.499577" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="ovo" pingpong="0" repeatcount="1" repeatto="0" sid="4539627397507963" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500423" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_4_3.png">
+                            <collision-poly>
+                                <point x="0.0304923" y="0.0701606" />
+                                <point x="0.5" y="0.032967" />
+                                <point x="0.969508" y="0.0701606" />
+                                <point x="0.999633" y="0.499577" />
+                                <point x="0.992285" y="0.982249" />
+                                <point x="0.5" y="0.999155" />
+                                <point x="0.00734754" y="0.983094" />
+                                <point x="0" y="0.499577" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Know_Game4" sid="6802439989712794">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8626283796921825" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500715" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Know_Game4.png">
+                            <collision-poly>
+                                <point x="0.00551065" y="0.0214592" />
+                                <point x="0.5" y="0" />
+                                <point x="0.994122" y="0.0228898" />
+                                <point x="0.994122" y="0.97711" />
+                                <point x="0.5" y="0.998569" />
+                                <point x="0.00587803" y="0.97711" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Game5">
+            <object-folder name="Game1">
+                <object-type name="Game5_1" sid="1091513674504983">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2304320910437208" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500647" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game5_1.png">
+                                <collision-poly>
+                                    <point x="0.00624541" y="0.0219922" />
+                                    <point x="0.5" y="0.00129366" />
+                                    <point x="0.993755" y="0.0219922" />
+                                    <point x="0.993755" y="0.978008" />
+                                    <point x="0.5" y="0.998706" />
+                                    <point x="0.00624541" y="0.978008" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game5_1a" sid="5164197336357302">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4757046927430052" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game5_1a.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="0.999005" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game5_1b" sid="9511244737447795">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2168849468235758" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game5_1b.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="1" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game5_1c" sid="2010075744027296">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6628277945979458" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game5_1c.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="0.999005" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game5_1d" sid="8620898062766658">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6777535292764293" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game5_1d.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="1" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Game2">
+                <object-type name="Game5_2" sid="6651553034567602">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2595595915759736" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500647" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Game5_2.png">
+                                <collision-poly>
+                                    <point x="0.00624541" y="0.0219922" />
+                                    <point x="0.5" y="0.00129366" />
+                                    <point x="0.993755" y="0.0219922" />
+                                    <point x="0.993755" y="0.978008" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.00624541" y="0.978008" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game5_2a" sid="9959889642853024">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1788973342311982" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game5_2a.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0839695" />
+                                    <point x="0.499502" y="0" />
+                                    <point x="0.975124" y="0.0954198" />
+                                    <point x="0.999005" y="0.5" />
+                                    <point x="0.971144" y="0.889313" />
+                                    <point x="0.499502" y="0.950382" />
+                                    <point x="0.0268657" y="0.896947" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game5_2b" sid="3119780984434542">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9226752538020183" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game5_2b.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="0.999005" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game5_2c" sid="2213178777305947">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4880725088243308" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game5_2c.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="1" y="0.498099" />
+                                    <point x="0.971144" y="0.889734" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Game5_2d" sid="8587207507297721">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6185585661880249" speed="5">
+                            <frame duration="1" hotspotX="0.500498" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Game5_2d.png">
+                                <collision-poly>
+                                    <point x="0.0218905" y="0.0836502" />
+                                    <point x="0.499502" y="0.00380228" />
+                                    <point x="0.975124" y="0.095057" />
+                                    <point x="1" y="0.498099" />
+                                    <point x="0.970149" y="0.885932" />
+                                    <point x="0.499502" y="0.95057" />
+                                    <point x="0.0268657" y="0.897338" />
+                                    <point x="0" y="0.498099" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-type name="Materi5" sid="5103022883330719">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="D" pingpong="0" repeatcount="1" repeatto="0" sid="4421951776515396" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_5_1.png">
+                            <collision-poly>
+                                <point x="0.0249816" y="0.0582192" />
+                                <point x="0.5" y="0.0205479" />
+                                <point x="0.975018" y="0.0582192" />
+                                <point x="0.999633" y="0.5" />
+                                <point x="0.992285" y="0.982021" />
+                                <point x="0.5" y="0.999144" />
+                                <point x="0.00734754" y="0.982877" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="A" pingpong="0" repeatcount="1" repeatto="0" sid="2818306180747077" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500431" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_5_2.png">
+                            <collision-poly>
+                                <point x="0.0220426" y="0.0517688" />
+                                <point x="0.5" y="0.0112166" />
+                                <point x="0.977957" y="0.0517688" />
+                                <point x="1" y="0.499569" />
+                                <point x="0.992652" y="0.982744" />
+                                <point x="0.5" y="0.999137" />
+                                <point x="0.00771492" y="0.981881" />
+                                <point x="0.000367377" y="0.499569" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="DnA" pingpong="0" repeatcount="1" repeatto="0" sid="802081559503546" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500423" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Materi_5_3.png">
+                            <collision-poly>
+                                <point x="0.0304923" y="0.0701606" />
+                                <point x="0.5" y="0.0363483" />
+                                <point x="0.969508" y="0.0701606" />
+                                <point x="0.999633" y="0.499577" />
+                                <point x="0.992285" y="0.982249" />
+                                <point x="0.5" y="0.999155" />
+                                <point x="0.00734754" y="0.983094" />
+                                <point x="0" y="0.499577" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi5_Air" sid="260358673815818">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5817879093713736" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi5_Air.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi5_DnA" sid="9077663513757247">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1257147047312172" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi5_DnA.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Materi5_Drt" sid="7021062540496719">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5984912038136895" speed="5">
+                        <frame duration="1" hotspotX="0.500849" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Materi5_Drt.png">
+                            <collision-poly>
+                                <point x="0.0288625" y="0.0648855" />
+                                <point x="0.499151" y="0" />
+                                <point x="0.962649" y="0.0839695" />
+                                <point x="0.989813" y="0.5" />
+                                <point x="0.955857" y="0.900763" />
+                                <point x="0.499151" y="0.950382" />
+                                <point x="0.0373514" y="0.916031" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Know_Game5" sid="5851968534169">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3786424529001305" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500715" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Know_Game5.png">
+                            <collision-poly>
+                                <point x="0.00551065" y="0.0214592" />
+                                <point x="0.5" y="0" />
+                                <point x="0.994122" y="0.0228898" />
+                                <point x="0.994122" y="0.97711" />
+                                <point x="0.5" y="0.998569" />
+                                <point x="0.00587803" y="0.97711" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="Mouse" sid="8642047770592311">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Logo" sid="4701615066654955">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8490833043690541" speed="5">
+                    <frame duration="1" hotspotX="0.501767" hotspotY="0.501767" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\LOGO.png">
+                        <collision-poly>
+                            <point x="0.24735" y="0.24735" />
+                            <point x="0.498233" y="0.0883392" />
+                            <point x="0.759717" y="0.240283" />
+                            <point x="0.879859" y="0.498233" />
+                            <point x="0.780919" y="0.780919" />
+                            <point x="0.498233" y="0.869258" />
+                            <point x="0.229682" y="0.770318" />
+                            <point x="0.130742" y="0.498233" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Browser" sid="8454429662339396">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="BackGround" sid="3054126538800558">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6410874909891488" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\freegui\png\BG.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Ikan" sid="3040160363251283">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Btn_Next" sid="7589419220192802">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="320441794235081" speed="5">
+                    <frame duration="1" hotspotX="0.500849" hotspotY="0.501901" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\NEXT.png">
+                        <collision-poly>
+                            <point x="0.0305603" y="0.0684411" />
+                            <point x="0.499151" y="0.00380228" />
+                            <point x="0.962649" y="0.0836502" />
+                            <point x="0.989813" y="0.498099" />
+                            <point x="0.955857" y="0.901141" />
+                            <point x="0.499151" y="0.95057" />
+                            <point x="0.0373514" y="0.91635" />
+                            <point x="0" y="0.498099" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Knowing" sid="4674970842894818">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2563935348360936" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Text\Knowing.png">
+                        <collision-poly>
+                            <point x="0.0201288" y="0.204918" />
+                            <point x="0.5" y="0.172131" />
+                            <point x="0.991143" y="0.0901639" />
+                            <point x="0.984702" y="0.844262" />
+                            <point x="0.5" y="0.95082" />
+                            <point x="0.00563607" y="0.942623" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stars" sid="4359503148803021">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4589072413492561" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Button\Stars.png">
+                        <collision-poly>
+                            <point x="0.2375" y="0.539773" />
+                            <point x="0.5" y="0.00113636" />
+                            <point x="0.7625" y="0.539773" />
+                            <point x="0.9075" y="0.5" />
+                            <point x="0.9555" y="0.898864" />
+                            <point x="0.5" y="0.714773" />
+                            <point x="0.045" y="0.897727" />
+                            <point x="0.0925" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="block" sid="543663686610452">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="down" sid="6534095255294518" type="string" />
+                <instance-variable name="cross" sid="3142635600768178" type="string" />
+                <instance-variable name="char" sid="2312491393394818" type="string" />
+                <instance-variable name="tap" sid="5650590161902206" type="boolean" />
+                <instance-variable name="my_number" sid="9179958705877622" type="number" />
+                <instance-variable name="input" sid="1829646312625457" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6142893913874917" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\block2.png">
+                        <collision-poly>
+                            <point x="0.00131062" y="0.00131579" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00131062" y="0.998684" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\block2.png">
+                        <collision-poly>
+                            <point x="0.00131062" y="0.00131579" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00131062" y="0.998684" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="7778119782875798">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5622637639503004" speed="0">
+                    <frame duration="1" hotspotX="0.500189" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\Text.png">
+                        <collision-poly>
+                            <point x="0.00491865" y="0.0234657" />
+                            <point x="0.499811" y="0" />
+                            <point x="0.995081" y="0.0234657" />
+                            <point x="0.995081" y="0.976534" />
+                            <point x="0.499811" y="0.998195" />
+                            <point x="0.00529701" y="0.974729" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="arrow" sid="2298299096227876">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9202266395770563" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\arrow.png">
+                        <collision-poly>
+                            <point x="0.0392157" y="0.0357143" />
+                            <point x="0.5" y="0.1875" />
+                            <point x="0.686275" y="0.285714" />
+                            <point x="1" y="0.5" />
+                            <point x="0.696078" y="0.723214" />
+                            <point x="0.5" y="0.821429" />
+                            <point x="0.0392157" y="0.964286" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="header" sid="4766337636235983">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="induk" sid="3937885127190674" type="number" />
+                <instance-variable name="check" sid="7120718291431106" type="string" />
+                <instance-variable name="total" sid="7409487500559086" type="number" />
+                <instance-variable name="guess" sid="5394033808089973" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4913249109539043" speed="0">
+                    <frame duration="1" hotspotX="0.503546" hotspotY="0.503546" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\header.png">
+                        <collision-poly>
+                            <point x="0.00512821" y="0.00598802" />
+                            <point x="0.994872" y="0.00598802" />
+                            <point x="0.994872" y="0.994012" />
+                            <point x="0.00512821" y="0.994012" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503546" hotspotY="0.503546" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\header.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.992908" y="0.0070922" />
+                            <point x="0.992908" y="0.992908" />
+                            <point x="0.0070922" y="0.992908" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="guessedWord" sid="5726796587772795">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="cursor" sid="8810732376457915">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7866881953419298" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\cursor.png">
+                        <collision-poly>
+                            <point x="0.211509" y="0.194444" />
+                            <point x="0.840575" y="0.184028" />
+                            <point x="0.871528" y="0.777778" />
+                            <point x="0.204862" y="0.781251" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mark" sid="4715015865353801">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check_direction" sid="3298281847807132" type="string" />
+                <instance-variable name="check_nomor" sid="8796800809468998" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="1258428697427036" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\mark1.png">
+                        <collision-poly>
+                            <point x="0.0985916" y="0.0972222" />
+                            <point x="0.5" y="0.236111" />
+                            <point x="0.901408" y="0.0972222" />
+                            <point x="0.767606" y="0.5" />
+                            <point x="0.901408" y="0.902778" />
+                            <point x="0.5" y="0.763889" />
+                            <point x="0.0985916" y="0.902778" />
+                            <point x="0.239437" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\mark2.png">
+                        <collision-poly>
+                            <point x="0.172619" y="0.232" />
+                            <point x="0.5" y="0.352" />
+                            <point x="0.916667" y="0.112" />
+                            <point x="0.839286" y="0.496" />
+                            <point x="0.5" y="0.912" />
+                            <point x="0.172619" y="0.768" />
+                            <point x="0.00595238" y="0.496" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pad" sid="4822831599121498">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="select" sid="8438102646470074" type="boolean" />
+                <instance-variable name="vertical" sid="4926492833751106" type="string" />
+                <instance-variable name="horizontal" sid="8586044522172202" type="string" />
+                <instance-variable name="tap" sid="2660191533403402" type="boolean" />
+                <instance-variable name="Nomor" sid="7567224948526097" type="number" />
+                <instance-variable name="input" sid="5699080408731071" type="boolean" />
+                <instance-variable name="alphabet" sid="1882925745148482" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6844365059079263" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\pad.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="inputCharacter" sid="4232605500811256">
+            <plugin id="TextBox" />
+            <instance-variables>
+                <instance-variable name="head_number" sid="6004303133080022" type="number" />
+                <instance-variable name="cek" sid="2515863256809858" type="string" />
+                <instance-variable name="sum" sid="2655037935756596" type="number" />
+                <instance-variable name="guessed_word" sid="2797030950838802" type="string" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Indikator" sid="5200288945344576">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="head_number" sid="7630166033253287" type="number" />
+                <instance-variable name="cek" sid="3205376617481446" type="string" />
+                <instance-variable name="sum" sid="9619530679629447" type="number" />
+                <instance-variable name="guessed_word" sid="7934829446309617" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6680619224233303" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0.5" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\indicator.png">
+                        <collision-poly>
+                            <point x="0.0708092" y="0.0713246" />
+                            <point x="0.5" y="0.0014556" />
+                            <point x="0.921965" y="0.0786026" />
+                            <point x="0.998555" y="0.499272" />
+                            <point x="0.930636" y="0.930131" />
+                            <point x="0.5" y="0.998544" />
+                            <point x="0.0606936" y="0.938865" />
+                            <point x="0.00144509" y="0.499272" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="C:\Users\vaN\Documents\Media Ipan\Assets\Image\GAME6\indicator.png">
+                        <collision-poly>
+                            <point x="0.0708092" y="0.0713246" />
+                            <point x="0.5" y="0.0014556" />
+                            <point x="0.921965" y="0.0786026" />
+                            <point x="0.998555" y="0.499272" />
+                            <point x="0.930636" y="0.930131" />
+                            <point x="0.5" y="0.998544" />
+                            <point x="0.0606936" y="0.938865" />
+                            <point x="0.00144509" y="0.499272" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="number" sid="2810882029918863">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Keyboard" sid="4007787966621018">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Touch" sid="9349081752408195">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Button" sid="5809591199178319">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text" sid="2265412687826523">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout-folder name="GAME1">
+            <layout>6_1_GAME1.xml</layout>
+            <layout>6_2_KNOWING1.xml</layout>
+            <layout>6_3_MATERI.xml</layout>
+        </layout-folder>
+        <layout-folder name="GAME2">
+            <layout>7_1_1GAME2.xml</layout>
+            <layout>7_1_2GAME2.xml</layout>
+            <layout>7_1_3GAME2.xml</layout>
+            <layout>7_2_KNOWING2.xml</layout>
+            <layout>7_3_MATERI.xml</layout>
+            <layout>7_3_MATERIb.xml</layout>
+        </layout-folder>
+        <layout-folder name="GAME3">
+            <layout>8_1_GAME3.xml</layout>
+            <layout>8_1_1_GAME3.xml</layout>
+            <layout>8_2_KNOWING3.xml</layout>
+            <layout>8_3_MATERI3.xml</layout>
+        </layout-folder>
+        <layout-folder name="GAME4">
+            <layout>9_1_GAME4a.xml</layout>
+            <layout>9_1_GAME4b.xml</layout>
+            <layout>9_1_GAME4c.xml</layout>
+            <layout>9_2_KNOWING4.xml</layout>
+            <layout>9_3_MATERI4.xml</layout>
+        </layout-folder>
+        <layout-folder name="GAME5">
+            <layout>10_1_GAME5a.xml</layout>
+            <layout>10_1_GAME5b.xml</layout>
+            <layout>10_2_KNOWING5.xml</layout>
+            <layout>10_3_MATERI5.xml</layout>
+        </layout-folder>
+        <layout-folder name="GAME6">
+            <layout>11_FINAL_GAME6.xml</layout>
+        </layout-folder>
+        <layout-folder name="MAP">
+            <layout>5_1_Map1.xml</layout>
+            <layout>5_2_Map2.xml</layout>
+            <layout>5_3_Map3.xml</layout>
+            <layout>5_4_Map4.xml</layout>
+            <layout>5_5_Map5.xml</layout>
+            <layout>5_6_Map6.xml</layout>
+        </layout-folder>
+        <layout>1_Opening.xml</layout>
+        <layout>2_KI.KD.xml</layout>
+        <layout>3_Doa.xml</layout>
+        <layout>4_1_Identitas.xml</layout>
+        <layout>4_2_Identitas.xml</layout>
+        <layout>COBA.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-folder name="GAME1">
+            <event-sheet>6_1_GAME.xml</event-sheet>
+            <event-sheet>6_2_KNOWING.xml</event-sheet>
+            <event-sheet>6_3_MATERI.xml</event-sheet>
+        </event-folder>
+        <event-folder name="GAME2">
+            <event-sheet>7_2_KNOWING.xml</event-sheet>
+            <event-sheet>7_1_1GAME2.xml</event-sheet>
+            <event-sheet>7_1_2GAME2.xml</event-sheet>
+            <event-sheet>7_1_3GAME2.xml</event-sheet>
+            <event-sheet>7_3_MATERI.xml</event-sheet>
+        </event-folder>
+        <event-folder name="GAME3">
+            <event-sheet>8_1_GAME3.xml</event-sheet>
+            <event-sheet>8_2_KNOWING.xml</event-sheet>
+            <event-sheet>8_3_MATERI3.xml</event-sheet>
+        </event-folder>
+        <event-folder name="GAME4">
+            <event-sheet>9_1_GAME4a.xml</event-sheet>
+            <event-sheet>9_1_GAME4b.xml</event-sheet>
+            <event-sheet>9_1_GAME4c.xml</event-sheet>
+            <event-sheet>9_2_KNOWING4.xml</event-sheet>
+            <event-sheet>9_3_MATERI4.xml</event-sheet>
+        </event-folder>
+        <event-folder name="GAME5">
+            <event-sheet>10_1_GAME5a.xml</event-sheet>
+            <event-sheet>10_1_GAME5b.xml</event-sheet>
+            <event-sheet>10_2_KNOWING5.xml</event-sheet>
+            <event-sheet>10_3_MATERI5.xml</event-sheet>
+        </event-folder>
+        <event-folder name="MAP">
+            <event-sheet>5_1_Map1.xml</event-sheet>
+            <event-sheet>5_2_Map2.xml</event-sheet>
+            <event-sheet>5_3_Map3.xml</event-sheet>
+            <event-sheet>5_4_Map4.xml</event-sheet>
+            <event-sheet>5_5_Map5.xml</event-sheet>
+            <event-sheet>5_6_Map6.xml</event-sheet>
+        </event-folder>
+        <event-folder name="GAME6">
+            <event-sheet>11_FINAL_GAME6.xml</event-sheet>
+        </event-folder>
+        <event-sheet>1_Opening.xml</event-sheet>
+        <event-sheet>2_KIKD.xml</event-sheet>
+        <event-sheet>3_Doa.xml</event-sheet>
+        <event-sheet>4_1_Identitas.xml</event-sheet>
+        <event-sheet>4_2_Identitas.xml</event-sheet>
+        <event-sheet>Coba.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="4" />
+        <global-instance type="Browser" uid="48" />
+        <global-instance type="Keyboard" uid="434" />
+        <global-instance type="Touch" uid="435">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="MATERI2.mp4" />
+    </files-folder>
+</c2project>

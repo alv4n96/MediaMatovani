@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>10_3_MATERI5</name>
+    <events>
+        <event-block sid="8308956595593088">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7407157510583785" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Materi5_Drt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="4212853689028591" type="Materi5">
+                    <param id="0" name="Animation">&quot;D&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7999919325149685">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1234115161319825" type="Mouse">
+                    <param id="0" name="Object">Materi5_Drt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="3738323317634682" type="Materi5_Drt">
+                    <param id="0" name="Scale">0.28</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7093875621259477">
+            <conditions>
+                <condition id="-22" name="Else" sid="3309806367317876" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6067206132969335" type="Materi5_Drt">
+                    <param id="0" name="Scale">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2562775233624541">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8893140694940411" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Materi5_Air</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2960548639301191" type="Materi5">
+                    <param id="0" name="Animation">&quot;A&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="407778939343256">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1128256597808095" type="Mouse">
+                    <param id="0" name="Object">Materi5_Air</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="129774545325906" type="Materi5_Air">
+                    <param id="0" name="Scale">0.28</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="273979026642159">
+            <conditions>
+                <condition id="-22" name="Else" sid="140770443416544" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="2625510019526338" type="Materi5_Air">
+                    <param id="0" name="Scale">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9784175774646323">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5127849113288025" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Materi5_DnA</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="361743361042531" type="Materi5">
+                    <param id="0" name="Animation">&quot;DnA&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5040491239268013">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="2278510763575396" type="Mouse">
+                    <param id="0" name="Object">Materi5_DnA</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="7930632928318022" type="Materi5_DnA">
+                    <param id="0" name="Scale">0.28</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7387226778637385">
+            <conditions>
+                <condition id="-22" name="Else" sid="3338149860123883" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="7375545226585256" type="Materi5_DnA">
+                    <param id="0" name="Scale">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1184512965563145">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7450134512093948" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Btn_Materi1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9348412795767543" type="System">
+                    <param id="0" name="Layout">5_6_Map6</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9827457107990296">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7548238798771299" type="Mouse">
+                    <param id="0" name="Object">Btn_Materi1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="7775665627978831" type="Btn_Materi1">
+                    <param id="0" name="Scale">0.28</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="912800881820894">
+            <conditions>
+                <condition id="-22" name="Else" sid="3323159410458187" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="7234186101633809" type="Btn_Materi1">
+                    <param id="0" name="Scale">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

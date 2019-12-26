@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>8_1_GAME3</name>
+    <events>
+        <variable constant="0" name="Counter8_1" sid="3653599667125225" static="0" type="number">0</variable>
+        <event-block sid="6863989371827494">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2208028000079816" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9503509146717917" type="Particles" />
+            </actions>
+        </event-block>
+        <event-block sid="5288348240455643">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="5025564401142916" type="Drag" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1124486107659876">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="6447988873032297" type="Drag">
+                            <param id="0" name="Object">Locked_Fish</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="2667223275559075" type="Drag">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">Locked_Fish.AnimationFrame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="2544199202823444" type="Locked_Fish">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="9792478247397522" type="Locked_Fish">
+                            <param id="0" name="Animation">&quot;unlocked&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2637104844210112" type="Locked_Fish">
+                            <param id="0" name="Frame number">Drag.AnimationFrame</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="5953361906367675" type="Drag" />
+                        <action id="-9" name="Set value" sid="3470661448595598" type="System">
+                            <param id="0" name="Variable">Counter8_1</param>
+                            <param id="1" name="Value">Counter8_1+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7504957424596091">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="1995090350575006" type="System">
+                            <param id="0" name="First value">Counter8_1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="6312296903595747" type="Victory_Game2">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="2285352463640608" type="Victory_Game2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="1172295733239948" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7591403674880427" type="Victory_Game2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="4617921968173895" type="System">
+                            <param id="0" name="Layout">8_1_1_GAME3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3388262538675342">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5488161617548235" type="Mouse">
+                    <param id="0" name="Object">Btn_Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="7756720390654884" type="Btn_Next">
+                    <param id="0" name="Scale">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1375361297915927">
+            <conditions>
+                <condition id="-22" name="Else" sid="5019457279736117" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="8125364016378163" type="Btn_Next">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8859869326066052">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="433761657825825" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Btn_Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4784395167216564" type="System">
+                    <param id="0" name="Layout">8_2_KNOWING3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

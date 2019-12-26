@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>2_KIKD</name>
+    <events>
+        <event-block sid="2142576674289268">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5032359209911053" type="Mouse">
+                    <param id="0" name="Object">Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="8445356575903663" type="Next">
+                    <param id="0" name="Scale">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9316300810363534">
+            <conditions>
+                <condition id="-22" name="Else" sid="5192336047435879" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="3989390195491443" type="Next">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3043329127024879">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3419204701233592" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8736861322240623" type="System">
+                    <param id="0" name="Layout">3_Doa</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

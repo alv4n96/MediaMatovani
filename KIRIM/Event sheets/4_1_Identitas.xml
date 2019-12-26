@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>4_1_Identitas</name>
+    <events>
+        <variable constant="0" name="Absen" sid="9272503274341934" static="0" type="number">0</variable>
+        <variable constant="0" name="NAMA" sid="9487548067672542" static="0" type="text">Nama</variable>
+        <event-block sid="9289388315746814">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7997979468892681" type="Mouse">
+                    <param id="0" name="Object">Btn_Submit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="3744791403611159" type="Btn_Submit">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3853019039614575">
+            <conditions>
+                <condition id="-22" name="Else" sid="2370555872555289" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="3447740862703144" type="Btn_Submit">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9434559798543391">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9734376066382879" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Btn_Submit</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="100180372071107">
+                    <conditions>
+                        <condition id="0" name="Compare text" sid="2615868671831801" type="Text_Nama">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                            <param id="1" name="Case">0</param>
+                        </condition>
+                        <condition id="0" name="Compare text" sid="7345267406556137" type="Text_Absen">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                            <param id="1" name="Case">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Append text" sid="7521974996315735" type="Tampil_Nama">
+                            <param id="0" name="Text">&quot;Ini Namanya Siapa&quot;</param>
+                        </action>
+                        <action id="1" name="Append text" sid="5847834239960754" type="Tampil_Absen">
+                            <param id="0" name="Text">&quot;Ini Nomor Absennya Berapa?&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2300768786013886">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="7652821584750429" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="1759810691919216" type="System">
+                            <param id="0" name="Variable">NAMA</param>
+                            <param id="1" name="Value">Text_Nama.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="9111756889701229" type="System">
+                            <param id="0" name="Variable">Absen</param>
+                            <param id="1" name="Value">Text_Absen.Text</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="567318312557373" type="System">
+                            <param id="0" name="Layout">4_2_Identitas</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

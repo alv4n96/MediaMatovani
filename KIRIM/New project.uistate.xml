@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">11_FINAL_GAME6</layout>
+        <layout order="2">COBA</layout>
+        <event-sheet order="1">11_FINAL_GAME6</event-sheet>
+        <event-sheet active="1" order="3">Coba</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="0" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/1/" />
+        <folder expanded="0" path="object-folder/2/" />
+        <folder expanded="0" path="object-folder/3/" />
+        <folder expanded="0" path="object-folder/4/" />
+        <folder expanded="0" path="object-folder/5/" />
+        <folder expanded="0" path="object-folder/5/5.1/" />
+        <folder expanded="0" path="object-folder/5/5.2/" />
+        <folder expanded="0" path="object-folder/5/5.3/" />
+        <folder expanded="0" path="object-folder/5/5.4/" />
+        <folder expanded="0" path="object-folder/5/5.5/" />
+        <folder expanded="0" path="object-folder/5/5.6/" />
+        <folder expanded="0" path="object-folder/Game1/" />
+        <folder expanded="0" path="object-folder/Game3/" />
+        <folder expanded="0" path="object-folder/Game2/" />
+        <folder expanded="0" path="object-folder/Game4/" />
+        <folder expanded="0" path="object-folder/Game4/Game1/" />
+        <folder expanded="0" path="object-folder/Game4/Game2/" />
+        <folder expanded="0" path="object-folder/Game4/Game3/" />
+        <folder expanded="0" path="object-folder/Game5/" />
+        <folder expanded="0" path="object-folder/Game5/Game1/" />
+        <folder expanded="0" path="object-folder/Game5/Game2/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/GAME1/" />
+        <folder expanded="0" path="layout-folder/GAME2/" />
+        <folder expanded="0" path="layout-folder/GAME3/" />
+        <folder expanded="0" path="layout-folder/GAME4/" />
+        <folder expanded="0" path="layout-folder/GAME5/" />
+        <folder expanded="0" path="layout-folder/GAME6/" />
+        <folder expanded="0" path="layout-folder/MAP/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="event-folder/GAME1/" />
+        <folder expanded="0" path="event-folder/GAME2/" />
+        <folder expanded="0" path="event-folder/GAME3/" />
+        <folder expanded="0" path="event-folder/GAME4/" />
+        <folder expanded="0" path="event-folder/GAME5/" />
+        <folder expanded="0" path="event-folder/MAP/" />
+        <folder expanded="0" path="event-folder/GAME6/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Btn_Mulai/" />
+        <folder expanded="1" path="animation-folder/Text_Judul/" />
+        <folder expanded="1" path="animation-folder/KD/" />
+        <folder expanded="1" path="animation-folder/KI/" />
+        <folder expanded="1" path="animation-folder/Lanjut/" />
+        <folder expanded="1" path="animation-folder/papan_Text/" />
+        <folder expanded="1" path="animation-folder/Doa/" />
+        <folder expanded="1" path="animation-folder/papan_Doa/" />
+        <folder expanded="1" path="animation-folder/Bio1/" />
+        <folder expanded="1" path="animation-folder/Bio_2/" />
+        <folder expanded="1" path="animation-folder/Btn_NO/" />
+        <folder expanded="1" path="animation-folder/Btn_OKE/" />
+        <folder expanded="1" path="animation-folder/Btn_Submit/" />
+        <folder expanded="1" path="animation-folder/Next/" />
+        <folder expanded="1" path="animation-folder/Tempat_Text/" />
+        <folder expanded="1" path="animation-folder/Tls_Nama/" />
+        <folder expanded="1" path="animation-folder/Tls_Absen/" />
+        <folder expanded="1" path="animation-folder/Papan_Info/" />
+        <folder expanded="1" path="animation-folder/1_Pohon/" />
+        <folder expanded="1" path="animation-folder/2_Sawah/" />
+        <folder expanded="1" path="animation-folder/3_Kali/" />
+        <folder expanded="1" path="animation-folder/4_Peternakan/" />
+        <folder expanded="1" path="animation-folder/5_TamanBunga/" />
+        <folder expanded="1" path="animation-folder/6_Rumah/" />
+        <folder expanded="1" path="animation-folder/MAP/" />
+        <folder expanded="1" path="animation-folder/Penghubung/" />
+        <folder expanded="1" path="animation-folder/Quit/" />
+        <folder expanded="1" path="animation-folder/Warning_Locked/" />
+        <folder expanded="1" path="animation-folder/2_Sawah_Locked/" />
+        <folder expanded="1" path="animation-folder/Warning_Success/" />
+        <folder expanded="1" path="animation-folder/3_Kali_Success/" />
+        <folder expanded="1" path="animation-folder/4_Perternakan_Success/" />
+        <folder expanded="1" path="animation-folder/5_TamanBunga_Success/" />
+        <folder expanded="1" path="animation-folder/6_Rumah_Success/" />
+        <folder expanded="1" path="animation-folder/Jawab1/" />
+        <folder expanded="1" path="animation-folder/Papan_Soal_Game1/" />
+        <folder expanded="1" path="animation-folder/Warn_Game1/" />
+        <folder expanded="1" path="animation-folder/Text_Game_1/" />
+        <folder expanded="1" path="animation-folder/Pohon_1/" />
+        <folder expanded="1" path="animation-folder/Pohon_4/" />
+        <folder expanded="1" path="animation-folder/Pohon_2/" />
+        <folder expanded="1" path="animation-folder/Pohon_3/" />
+        <folder expanded="1" path="animation-folder/6_Akar/" />
+        <folder expanded="1" path="animation-folder/6_Batang/" />
+        <folder expanded="1" path="animation-folder/daun/" />
+        <folder expanded="1" path="animation-folder/6_Bg_Daun/" />
+        <folder expanded="1" path="animation-folder/6_Ranting/" />
+        <folder expanded="1" path="animation-folder/Btn_Materi1/" />
+        <folder expanded="1" path="animation-folder/Txt_Materi1/" />
+        <folder expanded="1" path="animation-folder/MATERI1/" />
+        <folder expanded="1" path="animation-folder/Know_Game1/" />
+        <folder expanded="1" path="animation-folder/Drag/" />
+        <folder expanded="1" path="animation-folder/Locked_Fish/" />
+        <folder expanded="1" path="animation-folder/Text_Game2/" />
+        <folder expanded="1" path="animation-folder/Victory_Game2/" />
+        <folder expanded="1" path="animation-folder/Know_Game3/" />
+        <folder expanded="1" path="animation-folder/Materi3_Herbi/" />
+        <folder expanded="1" path="animation-folder/Materi3_Insek/" />
+        <folder expanded="1" path="animation-folder/Materi3_Karni/" />
+        <folder expanded="1" path="animation-folder/Materi3_Omni/" />
+        <folder expanded="1" path="animation-folder/Materi3_Text/" />
+        <folder expanded="1" path="animation-folder/Pause_Video/" />
+        <folder expanded="1" path="animation-folder/Play_video/" />
+        <folder expanded="1" path="animation-folder/Re_Play_Video/" />
+        <folder expanded="1" path="animation-folder/Text_Materi3/" />
+        <folder expanded="1" path="animation-folder/GAME_2_1/" />
+        <folder expanded="1" path="animation-folder/Drag1_Game2/" />
+        <folder expanded="1" path="animation-folder/Locked1_Game2/" />
+        <folder expanded="1" path="animation-folder/Locked2_Game2/" />
+        <folder expanded="1" path="animation-folder/Drag2_Game2/" />
+        <folder expanded="1" path="animation-folder/GAME_2_2/" />
+        <folder expanded="1" path="animation-folder/Drag3_Game2/" />
+        <folder expanded="1" path="animation-folder/GAME_2_3/" />
+        <folder expanded="1" path="animation-folder/Locked3_Game2/" />
+        <folder expanded="1" path="animation-folder/Text_Game_2/" />
+        <folder expanded="1" path="animation-folder/Know_Game2/" />
+        <folder expanded="1" path="animation-folder/Game4_1/" />
+        <folder expanded="1" path="animation-folder/Game4_1a/" />
+        <folder expanded="1" path="animation-folder/Game4_1b/" />
+        <folder expanded="1" path="animation-folder/Game4_1c/" />
+        <folder expanded="1" path="animation-folder/Game4_1d/" />
+        <folder expanded="1" path="animation-folder/Game4_2/" />
+        <folder expanded="1" path="animation-folder/Game4_2a/" />
+        <folder expanded="1" path="animation-folder/Game4_2b/" />
+        <folder expanded="1" path="animation-folder/Game4_2c/" />
+        <folder expanded="1" path="animation-folder/Game4_2d/" />
+        <folder expanded="1" path="animation-folder/Game4_3a/" />
+        <folder expanded="1" path="animation-folder/Game4_3b/" />
+        <folder expanded="1" path="animation-folder/Game4_3c/" />
+        <folder expanded="1" path="animation-folder/Game4_3d/" />
+        <folder expanded="1" path="animation-folder/Game4_3/" />
+        <folder expanded="1" path="animation-folder/Txt_GAME4/" />
+        <folder expanded="1" path="animation-folder/Materi4_Ovo/" />
+        <folder expanded="1" path="animation-folder/Materi4_Ovi/" />
+        <folder expanded="1" path="animation-folder/Materi4_Vi/" />
+        <folder expanded="1" path="animation-folder/Materi4_Text/" />
+        <folder expanded="1" path="animation-folder/Materi4/" />
+        <folder expanded="1" path="animation-folder/Know_Game4/" />
+        <folder expanded="1" path="animation-folder/Game5_1/" />
+        <folder expanded="1" path="animation-folder/Game5_1a/" />
+        <folder expanded="1" path="animation-folder/Game5_1b/" />
+        <folder expanded="1" path="animation-folder/Game5_1c/" />
+        <folder expanded="1" path="animation-folder/Game5_1d/" />
+        <folder expanded="1" path="animation-folder/Game5_2/" />
+        <folder expanded="1" path="animation-folder/Game5_2a/" />
+        <folder expanded="1" path="animation-folder/Game5_2b/" />
+        <folder expanded="1" path="animation-folder/Game5_2c/" />
+        <folder expanded="1" path="animation-folder/Game5_2d/" />
+        <folder expanded="1" path="animation-folder/Materi5/" />
+        <folder expanded="1" path="animation-folder/Materi5_Air/" />
+        <folder expanded="1" path="animation-folder/Materi5_DnA/" />
+        <folder expanded="1" path="animation-folder/Materi5_Drt/" />
+        <folder expanded="1" path="animation-folder/Know_Game5/" />
+        <folder expanded="1" path="animation-folder/Logo/" />
+        <folder expanded="1" path="animation-folder/BackGround/" />
+        <folder expanded="1" path="animation-folder/Btn_Next/" />
+        <folder expanded="1" path="animation-folder/Knowing/" />
+        <folder expanded="1" path="animation-folder/Stars/" />
+        <folder expanded="1" path="animation-folder/block/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/arrow/" />
+        <folder expanded="1" path="animation-folder/header/" />
+        <folder expanded="1" path="animation-folder/cursor/" />
+        <folder expanded="1" path="animation-folder/mark/" />
+        <folder expanded="1" path="animation-folder/pad/" />
+        <folder expanded="1" path="animation-folder/Indikator/" />
+    </folders-expanded>
+</c2uistate>

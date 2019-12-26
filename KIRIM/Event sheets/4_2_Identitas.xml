@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>4_2_Identitas</name>
+    <events>
+        <include>4_1_Identitas</include>
+        <event-block sid="9587632723488993">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="3127115818440733" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="6153469100312851" type="Tampil_Nama">
+                    <param id="0" name="Text">NAMA</param>
+                </action>
+                <action id="0" name="Set text" sid="7443416397547489" type="Tampil_Absen">
+                    <param id="0" name="Text">Absen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9080866832339857">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8805853018418137" type="Mouse">
+                    <param id="0" name="Object">Btn_OKE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="1960861871310708" type="Btn_OKE">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7002082586609931">
+            <conditions>
+                <condition id="-22" name="Else" sid="7746621418338671" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="9764299818259399" type="Btn_OKE">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9812806445022311">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6082412558427822" type="Mouse">
+                    <param id="0" name="Object">Btn_NO</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="707599046766173" type="Btn_NO">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5722459175804639">
+            <conditions>
+                <condition id="-22" name="Else" sid="761167327607516" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="4510886967419572" type="Btn_NO">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5018742870764608">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8684264034341239" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Btn_NO</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5256451692761528" type="System">
+                    <param id="0" name="Layout">4_1_Identitas</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4919391970506718">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7064607711641815" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Btn_OKE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5193719485111886" type="System">
+                    <param id="0" name="Layout">5_1_Map1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

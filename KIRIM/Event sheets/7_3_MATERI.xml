@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>7_3_MATERI</name>
+    <events>
+        <variable constant="0" name="Video_Materi2" sid="8174330184055934" static="0" type="number">0</variable>
+        <event-block sid="6626104616998313">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="6107649169511101" type="System" />
+            </conditions>
+            <actions>
+                <action id="3" name="Set value" sid="9595370667108915" type="SliderBar">
+                    <param id="0" name="Value">Video_MATERI2.PlaybackTime</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="506265362977758">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1321933170875389" type="Mouse">
+                    <param id="0" name="Object">Re_Play_Video</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="2833645213236464" type="Re_Play_Video">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8682997926896867">
+            <conditions>
+                <condition id="-22" name="Else" sid="282583910413831" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="2357347741276235" type="Re_Play_Video">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7632909273865939">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8311454406070449" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Re_Play_Video</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Set playback time" sid="8760014057283289" type="Video_MATERI2">
+                    <param id="0" name="Time">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7932568063685115">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5461700852609487" type="Mouse">
+                    <param id="0" name="Object">Pause_Video</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="2095393502489734" type="Pause_Video">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3368993363485234">
+            <conditions>
+                <condition id="-22" name="Else" sid="1829792655397196" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="1083708307338827" type="Pause_Video">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1657056566678013">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8096390896041706" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Pause_Video</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Pause" sid="6886963404112037" type="Video_MATERI2" />
+            </actions>
+        </event-block>
+        <event-block sid="1967229644120902">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6019673622706115" type="Mouse">
+                    <param id="0" name="Object">Play_video</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="872803355071708" type="Play_video">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2270579301014202">
+            <conditions>
+                <condition id="-22" name="Else" sid="6374988217746624" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="3618302623536211" type="Play_video">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5161903057575834">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9883648663993198" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Play_video</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Play" sid="9604034816728062" type="Video_MATERI2" />
+            </actions>
+        </event-block>
+        <event-block sid="17412952409343">
+            <conditions>
+                <condition id="2" name="Has ended" sid="6117584759193487" type="Video_MATERI2" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1964670132490006" type="System">
+                    <param id="0" name="Variable">Video_Materi2</param>
+                    <param id="1" name="Value">Video_Materi2+1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="1606307350763614" type="System">
+                    <param id="0" name="Layout">7_3_MATERIb</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6252367890955802">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7706674571865338" type="Mouse">
+                    <param id="0" name="Object">Btn_Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="2272067754749923" type="Btn_Next">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7834562470978696">
+            <conditions>
+                <condition id="-22" name="Else" sid="8841603609528766" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6375978438817049" type="Btn_Next">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4935947238590766">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2284522565725973" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Btn_Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5479467717424393" type="System">
+                    <param id="0" name="Layout">5_3_Map3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

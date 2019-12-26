@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>5_5_Map5</name>
+    <events>
+        <include>4_2_Identitas</include>
+        <event-block sid="6983849275756816">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="1529674278569973" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="7404726262794496" type="Tampil_Jeneng">
+                    <param id="0" name="Text">NAMA</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5754497383571013">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8150650897179506" type="Mouse">
+                    <param id="0" name="Object">1_Pohon</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="1303396906710348" type="1_Pohon">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7944760709568552">
+            <conditions>
+                <condition id="-22" name="Else" sid="6479867295778615" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="3374490833365843" type="1_Pohon">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4419544702082346">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4555648020066099" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">1_Pohon</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2612262440373945" type="Warning_Success">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1628194030892411" type="Warning_Success">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="6586694325382158" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="669861794820953" type="Warning_Success">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2850106197432543">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="2387042334803744" type="Mouse">
+                    <param id="0" name="Object">2_Sawah_Locked</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6269804645267198" type="2_Sawah_Locked">
+                    <param id="0" name="Scale">0.33</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6658107581447601">
+            <conditions>
+                <condition id="-22" name="Else" sid="8286247934398827" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6229659067475926" type="2_Sawah_Locked">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2577698872714607">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="544462225352226" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">2_Sawah_Locked</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5539694370350541" type="Warning_Success">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8963822207674323" type="Warning_Success">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="333639463689659" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8446521347377046" type="Warning_Success">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1931815504557291">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="6351413944401794" type="Mouse">
+                    <param id="0" name="Object">3_Kali_Success</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="2603958814448787" type="3_Kali_Success">
+                    <param id="0" name="Scale">0.33</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4295619727766987">
+            <conditions>
+                <condition id="-22" name="Else" sid="8126741032960236" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="9485452856179472" type="3_Kali_Success">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7711005532557553">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3240951820038111" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">3_Kali_Success</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6440703296452665" type="Warning_Success">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1915341924091239" type="Warning_Success">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="5725927457207897" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8073532272629019" type="Warning_Success">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7490159285761657">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8439657764738707" type="Mouse">
+                    <param id="0" name="Object">4_Perternakan_Success</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6905836644748688" type="4_Perternakan_Success">
+                    <param id="0" name="Scale">0.33</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3617166149740201">
+            <conditions>
+                <condition id="-22" name="Else" sid="8202813369864649" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="4559209246896965" type="4_Perternakan_Success">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8786003697235165">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4869720294646693" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">4_Perternakan_Success</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3186351713693169" type="Warning_Success">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8632774337985496" type="Warning_Success">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="4179701280364392" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3577941628873186" type="Warning_Success">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1077749532131067">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="21136203645482" type="Mouse">
+                    <param id="0" name="Object">5_TamanBunga_Success</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="2514636431827517" type="5_TamanBunga_Success">
+                    <param id="0" name="Scale">0.33</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9792999774602028">
+            <conditions>
+                <condition id="-22" name="Else" sid="8645591358448653" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="4828381668168671" type="5_TamanBunga_Success">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4196757317766363">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4717909194667808" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">5_TamanBunga_Success</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7189504077538233" type="System">
+                    <param id="0" name="Layout">10_1_GAME5a</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8246016397994709">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6002547403089006" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">6_Rumah</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2092883956679663" type="Warning_Locked">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1969734231189593" type="Warning_Locked">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="8619310915068428" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2897615092486812" type="Warning_Locked">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2318279297441033">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1178434998213888" type="Mouse">
+                    <param id="0" name="Object">Quit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6886647147200463" type="Quit">
+                    <param id="0" name="Scale">0.25</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3626121036176672">
+            <conditions>
+                <condition id="-22" name="Else" sid="8081490796028982" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="7201635967539668" type="Quit">
+                    <param id="0" name="Scale">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5020936991523671">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1470246680524149" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Quit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="4812038572654366" type="Browser" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

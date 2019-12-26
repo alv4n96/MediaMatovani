@@ -1,0 +1,1187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>11_FINAL_GAME6</name>
+    <events>
+        <variable constant="0" name="moveX" sid="92505068922023" static="0" type="number">0</variable>
+        <variable constant="0" name="moveY" sid="7133056995039072" static="0" type="number">0</variable>
+        <variable comment="0 = cross mode 1 =  down mode" constant="0" name="switch" sid="6192625439203286" static="0" type="number">0</variable>
+        <variable constant="0" name="activeNumberID" sid="8235040877668144" static="0" type="number">0</variable>
+        <variable constant="0" name="totWords" sid="6073387278390574" static="0" type="number">0</variable>
+        <variable constant="1" name="MENDATAR" sid="6395445423410862" static="0" type="text">2. Sapi berjalan menggunakan?#5. Kelinci bergerak dengancara?#6. Alat pernafasan belalangdisebut?#9. Proses Tumbuhanmembuat makanannyasendiri adalah?#12. Mahluk bernafas denganmenghrup?#13. Ayam berkembang biakdengan cara?#14. Ikan bergerak di airmenggunakan?#15. Burung terbang dengan?</variable>
+        <variable constant="1" name="MENURUN" sid="1865813835744152" static="0" type="text">1. Bagian tumbuhan yangmenyerap air dari dalamtanah?#3. Hewan pemakan tumbuhandisebut?#4. Hewan pemakan dagingdisebut?#7. Zat hijau daun disebut?#8. Hewan melahirkan disebutjuga dengan?#10. Alat pernafasan ikandisebut?#11. Cicak ... didinding</variable>
+        <variable constant="0" name="activeBox" sid="3548016552765666" static="0" type="number">-1</variable>
+        <variable constant="0" name="typingCode" sid="2264027328317077" static="0" type="number">0</variable>
+        <event-block sid="3361795253252153">
+            <conditions>
+                <condition id="-4" name="Trigger once while true" sid="1381524584581044" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="4865805209891732" type="block">
+                    <param id="0" name="Object">Text</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-24" name="Move to top" sid="7699280667752328" type="cursor" />
+                <action id="-9" name="Destroy" sid="2107276840361365" type="mark" />
+                <action id="-9" name="Destroy" sid="3545403605553909" type="Indikator" />
+            </actions>
+            <sub-events>
+                <event-block sid="1387934367483807">
+                    <conditions>
+                        <condition id="-33" name="Pick by comparison" sid="5362554714526503" type="System">
+                            <param id="0" name="Object">guessedWord</param>
+                            <param id="1" name="Expression">guessedWord.Text</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">&quot;MENDATAR&quot;</param>
+                        </condition>
+                        <condition id="-10" name="For" sid="9882499559330403" type="System">
+                            <param id="0" name="Name">&quot;&quot;</param>
+                            <param id="1" name="Start index">1</param>
+                            <param id="2" name="End index">tokencount(MENDATAR, &quot;#&quot;)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-6" name="Set height" sid="6310913669066224" type="guessedWord">
+                            <param id="0" name="Height">loopindex*32</param>
+                        </action>
+                        <action id="1" name="Append text" sid="9790667700568891" type="guessedWord">
+                            <param id="0" name="Text">newline&amp;tokenat(MENDATAR, loopindex-1, &quot;#&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3616688376685529">
+                    <conditions>
+                        <condition id="-33" name="Pick by comparison" sid="2266817491858215" type="System">
+                            <param id="0" name="Object">guessedWord</param>
+                            <param id="1" name="Expression">guessedWord.Text</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">&quot;MENURUN&quot;</param>
+                        </condition>
+                        <condition id="-10" name="For" sid="2239798366708607" type="System">
+                            <param id="0" name="Name">&quot;&quot;</param>
+                            <param id="1" name="Start index">1</param>
+                            <param id="2" name="End index">tokencount(MENURUN, &quot;#&quot;)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-6" name="Set height" sid="8137876956927217" type="guessedWord">
+                            <param id="0" name="Height">loopindex*32</param>
+                        </action>
+                        <action id="1" name="Append text" sid="153599803764814" type="guessedWord">
+                            <param id="0" name="Text">newline&amp;tokenat(MENURUN, loopindex-1, &quot;#&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4801692679435457">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="1029561724316362" type="block">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="4659962767642784" type="block">
+                            <param id="0" name="Object">number</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1893700969107004" type="number">
+                            <param id="0" name="Text">block.my_number</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="9584643839163337" type="number">
+                            <param id="0" name="X">block.X-14</param>
+                            <param id="1" name="Y">block.Y-16</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9364754257013635">
+                    <conditions>
+                        <condition id="-24" name="For Each (ordered)" sid="755691973588301" type="System">
+                            <param id="0" name="Object">block</param>
+                            <param id="1" name="Expression">block.my_number</param>
+                            <param id="2" name="Order">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="7706103823687971">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="9352653203602941" type="System">
+                                    <param id="0" name="First value">block.cross</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Second value">&quot;&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="984722360232724" type="System">
+                                    <param id="0" name="Object to create">Indikator</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="X">block.X</param>
+                                    <param id="3" name="Y">block.Y</param>
+                                </action>
+                                <action id="-5" name="Set width" sid="5264854105467095" type="Indikator">
+                                    <param id="0" name="Width">32*(len(block.cross)-1)</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="4145188887696631" type="Indikator">
+                                    <param id="0" name="Object">mark</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="7586568939379813" type="mark">
+                                    <param id="0" name="Instance variable">check_nomor</param>
+                                    <param id="1" name="Value">block.my_number</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="2253537986092891" type="mark">
+                                    <param id="0" name="Instance variable">check_direction</param>
+                                    <param id="1" name="Value">&quot;go_cross&quot;</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="8795079936868516" type="Indikator">
+                                    <param id="0" name="Instance variable">head_number</param>
+                                    <param id="1" name="Value">block.my_number</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5956951189701538">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="8949814907692459" type="System">
+                                    <param id="0" name="First value">block.down</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Second value">&quot;&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="8303820304223402" type="System">
+                                    <param id="0" name="Object to create">Indikator</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="X">block.X</param>
+                                    <param id="3" name="Y">block.Y</param>
+                                </action>
+                                <action id="-6" name="Set height" sid="522974619323354" type="Indikator">
+                                    <param id="0" name="Height">32*(len(block.down)-1)</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="4598143630600498" type="Indikator">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="7282396609976245" type="Indikator">
+                                    <param id="0" name="Object">mark</param>
+                                    <param id="1" name="Layer">1</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="1086673537574158" type="mark">
+                                    <param id="0" name="Instance variable">check_nomor</param>
+                                    <param id="1" name="Value">block.my_number</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="2274923301812476" type="mark">
+                                    <param id="0" name="Instance variable">check_direction</param>
+                                    <param id="1" name="Value">&quot;go_down&quot;</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="2628935811141876" type="Indikator">
+                                    <param id="0" name="Instance variable">head_number</param>
+                                    <param id="1" name="Value">block.my_number</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6183954844966464">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="3185150777220146" type="block">
+                    <param id="0" name="Instance variable">tap</param>
+                </condition>
+                <condition id="-33" name="Pick by comparison" sid="2840935038434428" type="System">
+                    <param id="0" name="Object">block</param>
+                    <param id="1" name="Expression">block.IID</param>
+                    <param id="2" name="Comparison">1</param>
+                    <param id="3" name="Value">activeBox</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="4434430527099136" type="block">
+                    <param id="0" name="Instance variable">tap</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2109478507267845">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="9373720825092362" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+                <condition id="-36" name="Pick overlapping point" sid="9729602455522319" type="System">
+                    <param id="0" name="Object">block</param>
+                    <param id="1" name="X">block(activeBox).X-32</param>
+                    <param id="2" name="Y">block(activeBox).Y</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="5397669940229311" type="System">
+                    <param id="0" name="Variable">activeBox</param>
+                    <param id="1" name="Value">block.IID</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2016136811668699">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="6848951076015414" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="-36" name="Pick overlapping point" sid="5437206743930681" type="System">
+                    <param id="0" name="Object">block</param>
+                    <param id="1" name="X">block(activeBox).X+32</param>
+                    <param id="2" name="Y">block(activeBox).Y</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4431255832297669" type="System">
+                    <param id="0" name="Variable">activeBox</param>
+                    <param id="1" name="Value">block.IID</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4325946490477607">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="943177211956144" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+                <condition id="-36" name="Pick overlapping point" sid="5854314612216973" type="System">
+                    <param id="0" name="Object">block</param>
+                    <param id="1" name="X">block(activeBox).X</param>
+                    <param id="2" name="Y">block(activeBox).Y-32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4444196628686941" type="System">
+                    <param id="0" name="Variable">activeBox</param>
+                    <param id="1" name="Value">block.IID</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8721432287747121">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="8097922343310976" type="Keyboard">
+                    <param id="0" name="Key">40 (Down arrow)</param>
+                </condition>
+                <condition id="-36" name="Pick overlapping point" sid="952474672900646" type="System">
+                    <param id="0" name="Object">block</param>
+                    <param id="1" name="X">block(activeBox).X</param>
+                    <param id="2" name="Y">block(activeBox).Y+32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1970485198957057" type="System">
+                    <param id="0" name="Variable">activeBox</param>
+                    <param id="1" name="Value">block.IID</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2161945549734544">
+            <conditions>
+                <condition id="3" name="On touched object" sid="344488554963023" type="Touch">
+                    <param id="0" name="Object">block</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="274517842318125" type="inputCharacter" />
+                <action id="-9" name="Set value" sid="1237704149509626" type="System">
+                    <param id="0" name="Variable">activeBox</param>
+                    <param id="1" name="Value">block.IID</param>
+                </action>
+                <action id="-14" name="Toggle boolean" sid="6456682032071677" type="block">
+                    <param id="0" name="Instance variable">tap</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7678365338109436" type="pad">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="1785757282340786" type="cursor">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="8704852941275284">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="5851226702278642" type="block">
+                            <param id="0" name="Object">cursor</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="5243906909713274" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="3972198008316674" type="inputCharacter" />
+                        <action id="-9" name="Set value" sid="7894245475880854" type="System">
+                            <param id="0" name="Variable">activeBox</param>
+                            <param id="1" name="Value">block.IID</param>
+                        </action>
+                        <action id="-14" name="Toggle boolean" sid="3572235847283253" type="block">
+                            <param id="0" name="Instance variable">tap</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7327318853097599" type="pad">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="3828119258328969" type="cursor">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1231184972895769">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="959860456710577" type="block">
+                            <param id="0" name="Instance variable">tap</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="382550404392258" type="block">
+                            <param id="0" name="Object">inputCharacter</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="3" name="Set visible" sid="1979152931510176" type="inputCharacter">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="8963468848212753" type="inputCharacter">
+                            <param id="0" name="Text">Keyboard.StringFromKeyCode(typingCode)</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="4215511659201569" type="pad">
+                            <param id="0" name="Object">block</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9046205058971507" type="pad">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="3117164599518247" type="cursor">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3747720549488579">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="6499036432774368" type="block">
+                    <param id="0" name="Instance variable">char</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">&quot;&quot;</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="509891544234563" type="System">
+                    <param id="0" name="First value">block.PickedCount</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">block.Count</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="632324567509615" type="System" />
+            </conditions>
+            <actions>
+                <action id="3" name="Set enabled" sid="1624327274562176" type="Button">
+                    <param id="0" name="Mode">1</param>
+                </action>
+                <action id="-7" name="Set size" sid="4615303814216229" type="Button">
+                    <param id="0" name="Width">80</param>
+                    <param id="1" name="Height">30</param>
+                </action>
+                <action id="-16" name="Wait" sid="6939546865428075" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-7" name="Set size" sid="8668745478330629" type="Button">
+                    <param id="0" name="Width">75</param>
+                    <param id="1" name="Height">28</param>
+                </action>
+                <action id="1" name="Set tooltip" sid="8205247062405006" type="Button">
+                    <param id="0" name="Tooltip">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="8036872585485595">
+            <conditions>
+                <condition id="-7" inverted="1" name="Compare instance variable" sid="1204485130272648" type="Indikator">
+                    <param id="0" name="Instance variable">guessed_word</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">block.cross</param>
+                </condition>
+                <condition id="-7" inverted="1" name="Compare instance variable" sid="5579175517792143" type="Indikator">
+                    <param id="0" name="Instance variable">guessed_word</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">block.down</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="5553446182048168" type="Indikator">
+                    <param id="0" name="Opacity">10</param>
+                </action>
+                <action id="-10" name="Set value" sid="5351340052755559" type="Indikator">
+                    <param id="0" name="Instance variable">cek</param>
+                    <param id="1" name="Value">&quot;WRONG&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6286460337689746">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="6050021628417409" type="block">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">1</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="5367060265819688" type="block">
+                    <param id="0" name="Object">Indikator</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="8267744307679254" type="Indikator">
+                    <param id="0" name="Instance variable">guessed_word</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">&quot;&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6638211715036989">
+                    <conditions>
+                        <condition id="-24" name="For Each (ordered)" sid="1168635604683792" type="System">
+                            <param id="0" name="Object">block</param>
+                            <param id="1" name="Expression">block.X</param>
+                            <param id="2" name="Order">0</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="4491464544326368" type="Indikator">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="3556900509773203" type="Indikator">
+                            <param id="0" name="Instance variable">guessed_word</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">block.cross</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="3533051111800971" type="Indikator">
+                            <param id="0" name="Opacity">35</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="6229201519648766" type="Indikator">
+                            <param id="0" name="Instance variable">cek</param>
+                            <param id="1" name="Value">&quot;yes&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6886523125525022">
+                    <conditions>
+                        <condition id="-24" name="For Each (ordered)" sid="5329654385846837" type="System">
+                            <param id="0" name="Object">block</param>
+                            <param id="1" name="Expression">block.Y</param>
+                            <param id="2" name="Order">0</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="7691068549990436" type="Indikator">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="2871508702668451" type="Indikator">
+                            <param id="0" name="Instance variable">guessed_word</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">block.down</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="381402866291267" type="Indikator">
+                            <param id="0" name="Opacity">35</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="5151924743618027" type="Indikator">
+                            <param id="0" name="Instance variable">cek</param>
+                            <param id="1" name="Value">&quot;yes&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="390281366069753">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="4125520261659944" type="block">
+                    <param id="0" name="Instance variable">char</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">&quot;&quot;</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Compare two values" sid="8988248421277209" type="System">
+                    <param id="0" name="First value">block.PickedCount</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">block.Count</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Set tooltip" sid="4796983055710504" type="Button">
+                    <param id="0" name="Tooltip">&quot;Isi Semua Kolom Terlebih Dahulu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7273644751609853">
+            <conditions>
+                <condition id="-21" name="Is between values" sid="3907940578619685" type="System">
+                    <param id="0" name="Value">Keyboard.LastKeyCode</param>
+                    <param id="1" name="Lower bound">65</param>
+                    <param id="2" name="Upper bound">89</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1434238287211947">
+                    <conditions>
+                        <condition id="7" name="On any key released" sid="2887713993482846" type="Keyboard" />
+                        <condition id="-11" name="For Each" sid="4963083801140185" type="System">
+                            <param id="0" name="Object">Indikator</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="6114985056626677" type="block">
+                            <param id="0" name="Object">Indikator</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="8577379454789329" type="Indikator">
+                            <param id="0" name="Instance variable">sum</param>
+                            <param id="1" name="Value">block.PickedCount</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="960918030874074">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="5306774862535389" type="System">
+                                    <param id="0" name="First value">block(activeBox).char</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Second value">&quot;&quot;</param>
+                                </condition>
+                                <condition id="-36" name="Pick overlapping point" sid="3512432960856257" type="System">
+                                    <param id="0" name="Object">block</param>
+                                    <param id="1" name="X">block(activeBox).X+moveX</param>
+                                    <param id="2" name="Y">block(activeBox).Y+moveY</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="2911632379042141" type="System">
+                                    <param id="0" name="Seconds">dt</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="245678281081632" type="inputCharacter" />
+                                <action id="-9" name="Set value" sid="2874075828470305" type="System">
+                                    <param id="0" name="Variable">activeBox</param>
+                                    <param id="1" name="Value">block.IID</param>
+                                </action>
+                                <action id="-14" name="Toggle boolean" sid="6138076186686999" type="block">
+                                    <param id="0" name="Instance variable">tap</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="7340156373744076" type="pad">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="8932283232563261" type="cursor">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="1306880030795663">
+                                    <conditions>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="6318456993883613" type="block">
+                                            <param id="0" name="Instance variable">tap</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="3209418212623332" type="block">
+                                            <param id="0" name="Object">inputCharacter</param>
+                                            <param id="1" name="Layer">1</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                        <action id="3" name="Set visible" sid="8633059777157612" type="inputCharacter">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="19288021928979" type="inputCharacter">
+                                            <param id="0" name="Text">Keyboard.StringFromKeyCode(typingCode)</param>
+                                        </action>
+                                        <action id="-4" name="Set position to another object" sid="7022257968537561" type="pad">
+                                            <param id="0" name="Object">block</param>
+                                            <param id="1" name="Image point (optional)">0</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="4278468806664085" type="pad">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="711423762155008" type="cursor">
+                                            <param id="0" name="Opacity">50</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <variable constant="0" name="character_order" sid="6362925178941335" static="0" type="text"></variable>
+                        <event-block sid="5346535372540166">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="8984631990830785" type="Indikator">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                                <condition id="-24" name="For Each (ordered)" sid="6426128763631772" type="System">
+                                    <param id="0" name="Object">block</param>
+                                    <param id="1" name="Expression">block.X</param>
+                                    <param id="2" name="Order">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="5771608755212676" type="Indikator">
+                                    <param id="0" name="Instance variable">guessed_word</param>
+                                    <param id="1" name="Value">&quot;&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="2550444598904997" type="System">
+                                    <param id="0" name="Seconds">dt</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="9452699179711841" type="System">
+                                    <param id="0" name="Variable">character_order</param>
+                                    <param id="1" name="Value">block.char</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="4355367907613285" type="Indikator">
+                                    <param id="0" name="Instance variable">guessed_word</param>
+                                    <param id="1" name="Value">right(character_order, Indikator.sum)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7782980607463667">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="374748277873209" type="Indikator">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                                <condition id="-24" name="For Each (ordered)" sid="3828716419524662" type="System">
+                                    <param id="0" name="Object">block</param>
+                                    <param id="1" name="Expression">block.Y</param>
+                                    <param id="2" name="Order">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="4319354055118427" type="Indikator">
+                                    <param id="0" name="Instance variable">guessed_word</param>
+                                    <param id="1" name="Value">&quot;&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="7564292604951948" type="System">
+                                    <param id="0" name="Seconds">dt</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="6331720072336516" type="System">
+                                    <param id="0" name="Variable">character_order</param>
+                                    <param id="1" name="Value">block.char</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="2651325993434813" type="Indikator">
+                                    <param id="0" name="Instance variable">guessed_word</param>
+                                    <param id="1" name="Value">right(character_order, Indikator.sum)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5540668117273137">
+            <conditions>
+                <condition id="-13" name="Pick nth instance" sid="9574611051983257" type="System">
+                    <param id="0" name="Object">block</param>
+                    <param id="1" name="Instance">activeBox</param>
+                </condition>
+                <condition id="-15" name="Pick nearest/furthest" sid="2916112915475355" type="Text">
+                    <param id="0" name="Which">0</param>
+                    <param id="1" name="X">block.X</param>
+                    <param id="2" name="Y">block.Y</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="1676730241637246" type="System">
+                    <param id="0" name="First value">Keyboard.LastKeyCode</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Second value">Keyboard.StringFromKeyCode(13)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="891614584920964" type="Text">
+                    <param id="0" name="Text">block.char</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="988952164904242">
+                    <conditions>
+                        <condition id="1" name="On any key pressed" sid="611186999534073" type="Keyboard" />
+                        <condition id="-3" name="Is on-screen" sid="5310399061750252" type="inputCharacter" />
+                        <condition id="-21" name="Is between values" sid="9637954756178281" type="System">
+                            <param id="0" name="Value">Keyboard.LastKeyCode</param>
+                            <param id="1" name="Lower bound">65</param>
+                            <param id="2" name="Upper bound">90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3582722747941908" type="inputCharacter">
+                            <param id="0" name="Text">Keyboard.StringFromKeyCode(Keyboard.LastKeyCode)</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="3459152214325348" type="block">
+                            <param id="0" name="Instance variable">char</param>
+                            <param id="1" name="Value">inputCharacter.Text</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9026549126019059">
+                    <conditions>
+                        <condition id="1" name="On text changed" sid="1705279440245732" type="inputCharacter" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="4087913998086077" type="System">
+                            <param id="0" name="Seconds">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="7346387208095953" type="block">
+                            <param id="0" name="Instance variable">tap</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="2926819739304539" type="inputCharacter" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6761330948981734">
+            <conditions />
+            <actions>
+                <action id="-3" name="Set position" sid="2942185540931711" type="inputCharacter">
+                    <param id="0" name="X">lerp(self.X, block(activeBox).X+15, 0.5)</param>
+                    <param id="1" name="Y">lerp(self.Y, block(activeBox).Y-26, 0.3)</param>
+                </action>
+                <action id="-3" name="Set position" sid="6824410501457405" type="cursor">
+                    <param id="0" name="X">block(activeBox).X</param>
+                    <param id="1" name="Y">block(activeBox).Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8489479167499425">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="1370032425658567" type="mark">
+                    <param id="0" name="Instance variable">check_direction</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;go_cross&quot;</param>
+                </condition>
+                <condition id="-24" name="For Each (ordered)" sid="9138848846111658" type="System">
+                    <param id="0" name="Object">mark</param>
+                    <param id="1" name="Expression">mark.check_nomor</param>
+                    <param id="2" name="Order">0</param>
+                </condition>
+                <condition id="-33" name="Pick by comparison" sid="9256792305596043" type="System">
+                    <param id="0" name="Object">guessedWord</param>
+                    <param id="1" name="Expression">guessedWord.Text</param>
+                    <param id="2" name="Comparison">5</param>
+                    <param id="3" name="Value">&quot;MENDATAR&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="6879195577634784" type="mark">
+                    <param id="0" name="X">guessedWord.X+20*(loopindex+1)</param>
+                    <param id="1" name="Y">guessedWord.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="198943370474234">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="8740958054811248" type="mark">
+                    <param id="0" name="Instance variable">check_direction</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;go_down&quot;</param>
+                </condition>
+                <condition id="-24" name="For Each (ordered)" sid="4640783373185568" type="System">
+                    <param id="0" name="Object">mark</param>
+                    <param id="1" name="Expression">mark.check_nomor</param>
+                    <param id="2" name="Order">0</param>
+                </condition>
+                <condition id="-33" name="Pick by comparison" sid="7607443589397645" type="System">
+                    <param id="0" name="Object">guessedWord</param>
+                    <param id="1" name="Expression">guessedWord.Text</param>
+                    <param id="2" name="Comparison">5</param>
+                    <param id="3" name="Value">&quot;MENURUN&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="3044086854357134" type="mark">
+                    <param id="0" name="X">guessedWord.X</param>
+                    <param id="1" name="Y">guessedWord.Y+20*(loopindex+1)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4369477202962714">
+            <conditions>
+                <condition id="0" name="On clicked" sid="4855623679017946" type="Button" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="489716610971974" type="Button">
+                    <param id="0" name="Width">72</param>
+                    <param id="1" name="Height">24</param>
+                </action>
+                <action id="-16" name="Wait" sid="2730324440254067" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-7" name="Set size" sid="7216564629382675" type="Button">
+                    <param id="0" name="Width">76</param>
+                    <param id="1" name="Height">27</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4213061152553802" type="mark">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="47693422360176">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7521084756309373" type="Indikator">
+                            <param id="0" name="Instance variable">cek</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;yes&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="4454543674913782">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="7025477566838421" type="System">
+                            <param id="0" name="Object">mark</param>
+                        </condition>
+                        <condition id="-33" name="Pick by comparison" sid="3837322100436462" type="System">
+                            <param id="0" name="Object">Indikator</param>
+                            <param id="1" name="Expression">mark.check_nomor</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">Indikator.head_number</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="2409586106174073">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="3384413256869633" type="mark">
+                                    <param id="0" name="Instance variable">check_direction</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;go_cross&quot;</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="5779940728419181" type="Indikator">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="305054117029055">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="3032347836750437" type="Indikator">
+                                            <param id="0" name="Instance variable">cek</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;yes&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="980284781972068" type="mark">
+                                            <param id="0" name="Frame number">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="897990405570542">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="5990136638977632" type="Indikator">
+                                            <param id="0" name="Instance variable">cek</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;no&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="7728947889892458" type="mark">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="7841046321836906">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="3705756530929659" type="mark">
+                                    <param id="0" name="Instance variable">check_direction</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;go_down&quot;</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="4541133237653266" type="Indikator">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="8518984536024885">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="5490118652071567" type="Indikator">
+                                            <param id="0" name="Instance variable">cek</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;yes&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="8169149072393444" type="mark">
+                                            <param id="0" name="Frame number">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="307756573009655">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="1479955050671851" type="Indikator">
+                                            <param id="0" name="Instance variable">cek</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;no&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="2753904442846886" type="mark">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6802603539908136">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="1063441917388754" type="System">
+                    <param id="0" name="Variable">switch</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9622432247075345" type="System">
+                    <param id="0" name="Variable">moveX</param>
+                    <param id="1" name="Value">tokenat(&quot;32#0&quot;, 0, &quot;#&quot;)</param>
+                </action>
+                <action id="-9" name="Set value" sid="3129134561147377" type="System">
+                    <param id="0" name="Variable">moveY</param>
+                    <param id="1" name="Value">tokenat(&quot;0#32&quot;, 0, &quot;#&quot;)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2983538721167825">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="1032517632144061" type="System">
+                    <param id="0" name="Variable">switch</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1080995028536525" type="System">
+                    <param id="0" name="Variable">moveX</param>
+                    <param id="1" name="Value">tokenat(&quot;32#0&quot;, 1, &quot;#&quot;)</param>
+                </action>
+                <action id="-9" name="Set value" sid="5753048284439791" type="System">
+                    <param id="0" name="Variable">moveY</param>
+                    <param id="1" name="Value">tokenat(&quot;0#32&quot;, 1, &quot;#&quot;)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="319094216587653">
+            <conditions>
+                <condition id="-13" name="Pick nth instance" sid="7331575709540684" type="System">
+                    <param id="0" name="Object">block</param>
+                    <param id="1" name="Instance">activeBox</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9001437656857982">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8474688722410998" type="System">
+                            <param id="0" name="Variable">switch</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="3738579631130673" type="block">
+                            <param id="0" name="Object">Indikator</param>
+                        </condition>
+                        <condition id="-33" name="Pick by comparison" sid="2966086690593338" type="System">
+                            <param id="0" name="Object">block</param>
+                            <param id="1" name="Expression">Indikator.PickedCount</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="8880603327959349">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="3862662545854133" type="Indikator">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="9637723549111603" type="System">
+                                    <param id="0" name="Variable">switch</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2234603489191181">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="556035530241864" type="System">
+                            <param id="0" name="Variable">switch</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="8788680676186514" type="block">
+                            <param id="0" name="Object">Indikator</param>
+                        </condition>
+                        <condition id="-33" name="Pick by comparison" sid="1618249359600767" type="System">
+                            <param id="0" name="Object">block</param>
+                            <param id="1" name="Expression">Indikator.PickedCount</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1440541647814946">
+                            <conditions>
+                                <condition id="-33" name="Pick by comparison" sid="3292289364450143" type="System">
+                                    <param id="0" name="Object">Indikator</param>
+                                    <param id="1" name="Expression">Indikator.AnimationFrame</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="6563556107608209">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2430814187432401" type="System">
+                            <param id="0" name="Variable">switch</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="2992987570406725" type="block">
+                            <param id="0" name="Object">Indikator</param>
+                        </condition>
+                        <condition id="-33" name="Pick by comparison" sid="3329634034396552" type="System">
+                            <param id="0" name="Object">block</param>
+                            <param id="1" name="Expression">Indikator.PickedCount</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6946661024827339">
+                            <conditions>
+                                <condition id="-33" name="Pick by comparison" sid="3382555009199789" type="System">
+                                    <param id="0" name="Object">block</param>
+                                    <param id="1" name="Expression">Indikator.AnimationFrame</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9741776645035903">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4402369413533526" type="Touch">
+                    <param id="0" name="Object">block</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="9544088225470375" type="System">
+                    <param id="0" name="Variable">switch</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7939383834548188" type="System">
+                    <param id="0" name="Variable">switch</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4842597383460223">
+            <conditions>
+                <condition id="18" name="On double-tap object" sid="4578508094597749" type="Touch">
+                    <param id="0" name="Object">block</param>
+                </condition>
+                <condition id="-11" name="For Each" sid="2875917017543592" type="System">
+                    <param id="0" name="Object">block</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="8270178188403488" type="block">
+                    <param id="0" name="Object">Indikator</param>
+                </condition>
+                <condition id="-33" name="Pick by comparison" sid="4972598678131755" type="System">
+                    <param id="0" name="Object">block</param>
+                    <param id="1" name="Expression">Indikator.PickedCount</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="7483338640403376" type="System">
+                    <param id="0" name="Variable">switch</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="5877801574899688" type="System">
+                    <param id="0" name="Variable">switch</param>
+                    <param id="1" name="Value">abs(switch)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6388171819500973">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="6518674344457925" type="System">
+                    <param id="0" name="Variable">switch</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="898825198597872" type="Indikator">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="27388989998427" type="cursor">
+                    <param id="0" name="Object">Indikator</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="6500290649855535" type="mark">
+                    <param id="0" name="Instance variable">check_direction</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;go_cross&quot;</param>
+                </condition>
+                <condition id="-33" name="Pick by comparison" sid="6405574045373455" type="System">
+                    <param id="0" name="Object">mark</param>
+                    <param id="1" name="Expression">mark.check_nomor</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">Indikator.head_number</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="9685858432891637" type="arrow">
+                    <param id="0" name="Y">mark.Y+10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6261434786134764">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5190868606545033" type="System">
+                    <param id="0" name="Variable">switch</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="6201903817024631" type="Indikator">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">1</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="6833871153201478" type="cursor">
+                    <param id="0" name="Object">Indikator</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="8739901313987194" type="mark">
+                    <param id="0" name="Instance variable">check_direction</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;go_down&quot;</param>
+                </condition>
+                <condition id="-33" name="Pick by comparison" sid="1598425383200024" type="System">
+                    <param id="0" name="Object">mark</param>
+                    <param id="1" name="Expression">mark.check_nomor</param>
+                    <param id="2" name="Comparison">0</param>
+                    <param id="3" name="Value">Indikator.head_number</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="9301088578122225" type="arrow">
+                    <param id="0" name="Y">mark.Y+10</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

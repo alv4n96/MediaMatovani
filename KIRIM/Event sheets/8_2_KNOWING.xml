@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>8_2_KNOWING</name>
+    <events>
+        <event-block sid="4120794146558857">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="492958014814624" type="Mouse">
+                    <param id="0" name="Object">Btn_Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="55024007852816" type="Btn_Next">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7959319062779705">
+            <conditions>
+                <condition id="-22" name="Else" sid="943672188437805" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="5411797959551832" type="Btn_Next">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7489858730059983">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3293694039628721" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Btn_Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1170242316549256" type="System">
+                    <param id="0" name="Layout">8_3_MATERI3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

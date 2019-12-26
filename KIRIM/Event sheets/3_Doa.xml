@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>3_Doa</name>
+    <events>
+        <event-block sid="6110794610930536">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5539338682393495" type="Mouse">
+                    <param id="0" name="Object">Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="5575064252088894" type="Next">
+                    <param id="0" name="Scale">0.3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5083395926724811">
+            <conditions>
+                <condition id="-22" name="Else" sid="9610413327080128" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="4927318525157129" type="Next">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="275765251163819">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8811225646683579" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="137526450114173" type="System">
+                    <param id="0" name="Layout">4_1_Identitas</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

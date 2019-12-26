@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>6_1_GAME</name>
+    <events>
+        <event-block sid="1008011892312497">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1391964325898987" type="Mouse">
+                    <param id="0" name="Object">Jawab1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="9183811644868742" type="Jawab1">
+                    <param id="0" name="Scale">0.35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9528387099296988">
+            <conditions>
+                <condition id="-22" name="Else" sid="3237597890108138" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="8550313051363234" type="Jawab1">
+                    <param id="0" name="Scale">0.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7482366742853186">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5075265898854779" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Jawab1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5276723375961667" type="Warn_Game1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4560241315077482" type="Warn_Game1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="8365034416061878" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2098877577245589" type="Warn_Game1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7778653933747473">
+            <conditions>
+                <condition id="0" name="Compare text" sid="7671312952816991" type="Jawab1_1">
+                    <param id="0" name="Text">&quot;3&quot;</param>
+                    <param id="1" name="Case">1</param>
+                </condition>
+                <condition id="0" name="Compare text" sid="3915975894948236" type="Jawab1_2">
+                    <param id="0" name="Text">&quot;7&quot;</param>
+                    <param id="1" name="Case">1</param>
+                </condition>
+                <condition id="0" name="Compare text" sid="9971475405142813" type="Jawab1_3">
+                    <param id="0" name="Text">&quot;9&quot;</param>
+                    <param id="1" name="Case">1</param>
+                </condition>
+                <condition id="0" name="Compare text" sid="4451536988167309" type="Jawab1_4">
+                    <param id="0" name="Text">&quot;14&quot;</param>
+                    <param id="1" name="Case">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6102107847477546">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="543867378563933" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Jawab1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="2186332340648489" type="System">
+                            <param id="0" name="Layout">6_2_KNOWING1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
